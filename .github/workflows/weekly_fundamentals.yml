@@ -49,7 +49,19 @@ jobs:
         run: |
           git config user.name "FF Automation"
           git config user.email "actions@github.com"
-          git add fund_flags_v3.csv fundamentals_master.csv corporate_actions.csv
+          # Add only what exists. corporate_actions.csv is written by the NSE
+          # bhavcopy updater, which is not wired yet, so it is legitimately
+          # absent -- and naming an absent path makes git add exit 128 and takes
+          # the whole run down AFTER the scrape, the merge and the acceptance
+          # test have all succeeded. That is exactly what happened on 27 Sep:
+          # 32 minutes of good work discarded at the last line.
+          #
+          # daily_update.yml was given this loop weeks ago for the same file and
+          # the same reason. This workflow was left on the old list, so the fix
+          # covered the instance and not the class. It now covers both.
+          for f in fund_flags_v3.csv fundamentals_master.csv corporate_actions.csv; do
+            if [ -e "$f" ]; then git add "$f"; else echo "absent, not added: $f"; fi
+          done
           git diff --quiet --cached || git commit -m "Weekly fundamentals check: $(date +'%Y-%m-%d')"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
