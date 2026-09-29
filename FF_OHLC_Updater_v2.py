@@ -35,6 +35,28 @@ split, the action is REFUSED, the symbol is quarantined, and a human is told.
 That is the "read the kind, never the factor alone" rule enforced empirically,
 which also catches events no feed bothered to label.
 
+AN UNSETTLED BAR IS NOT DATA
+----------------------------
+Yahoo's live quote and its historical daily bar are two different products.
+The website's ticker streams; the daily candle this script reads is assembled
+from a vendor feed and is finalised some time after the close. Inside that
+window the row for the day EXISTS but one of its fields is still null — which
+is not a data fault, just a bar that has not settled yet.
+
+On 21 and 28 September 2026, and again on the first run of 29 September, that
+produced "1 NaN prices" on 751 of 751 symbols: one empty cell, the same one
+everywhere, because a single exchange-wide field had not been filled in. The
+run was failed, correctly, but for the wrong reason — the structural gate is
+there to catch corrupted history, not to notice that the market's paperwork is
+an hour late. A later run the same day passed on identical code and identical
+packages, and the 28 September bar arrived complete.
+
+So an incoming row missing any of Open/High/Low/Close is DROPPED before the
+merge rather than merged and then caught. It is not data, so it does not enter.
+Tomorrow's run fetches it again, settled, through the ten-day overlap window.
+This also stops an unsettled row from overwriting a good stored one, since the
+merge lets new rows win on a shared date.
+
 FAILURE POLICY
 --------------
 A symbol that fails any gate is left EXACTLY as it was on disk and reported.
@@ -175,7 +197,16 @@ def check_frame(full: pd.DataFrame):
         return bad
     px = df[["Open", "High", "Low", "Close"]]
     if px.isna().any().any():
-        bad.append(f"{int(px.isna().sum().sum())} NaN prices")
+        # Name the date and the column. "1 NaN prices" is a true statement that
+        # tells nobody anything: when it fired on all 751 symbols it cost a day
+        # of guessing which cell, on which date, in a thirty-year series. A gate
+        # that refuses to publish must also say what it saw.
+        spots = []
+        for c in ("Open", "High", "Low", "Close"):
+            for d in df.loc[df[c].isna(), "Date"].head(3):
+                spots.append(f"{pd.Timestamp(d).date()} {c}")
+        bad.append(f"{int(px.isna().sum().sum())} NaN prices"
+                   + (f" (first: {', '.join(spots[:4])})" if spots else ""))
     if (px <= 0).any().any():
         bad.append(f"{int((px <= 0).sum().sum())} non-positive prices")
     hi_ok = (df.High >= df[["Open", "Close", "Low"]].max(axis=1) - 1e-6)
@@ -287,6 +318,24 @@ def update_one(symbol, hist, new, splits, from_date):
     notes, applied = [], []
     if new is None or new.empty:
         return None, "no_new_data", ["feed returned nothing"]
+
+    # 0. Drop rows the feed has not finished writing. A bar missing any of its
+    #    four prices is not a price series with a hole in it — it is a bar that
+    #    does not exist yet, and the only correct thing to do with it is wait.
+    #    Dropping it here, before anything else looks at the block, also keeps
+    #    an unsettled row from reaching merge(), where new rows win on a shared
+    #    date and would overwrite a good stored one with a blank.
+    price_cols = ["Open", "High", "Low", "Close"]
+    complete = new[price_cols].notna().all(axis=1)
+    if not complete.all():
+        dropped = [str(pd.Timestamp(d).date()) for d in new.loc[~complete, "Date"]]
+        notes.append(f"{len(dropped)} incomplete bar(s) dropped, not merged: "
+                     + ", ".join(dropped[:5])
+                     + (" …" if len(dropped) > 5 else ""))
+        new = new[complete].reset_index(drop=True)
+    if new.empty:
+        return None, "no_new_data", notes + [
+            "every fetched bar was incomplete; nothing to merge"]
 
     # 1. Normalise the fetched block onto one scale — its own latest one.
     factor_product = 1.0
@@ -545,6 +594,45 @@ def selftest():
     _, status8, notes8 = update_one("G", hist, gap, [], hist.Date.max())
     report("an unverifiable join (no overlap) is quarantined",
            status8 == "quarantined", notes8[-1] if notes8 else "")
+
+    # 9. the 28 September 2026 case: the newest bar has not settled yet, so one
+    #    of its four prices is still null. It must be dropped and the rest of
+    #    the block applied normally — not merged and then caught by the gate,
+    #    which took the whole pipeline down over a bar that was simply early.
+    unsettled = base.iloc[95:].copy()
+    unsettled.loc[unsettled.index[-1], "Open"] = np.nan
+    frame9, status9, notes9 = update_one("U", hist, unsettled, [], hist.Date.max())
+    passed = (status9 == "ok" and frame9 is not None and len(frame9) == 119
+              and not frame9[["Open", "High", "Low", "Close"]].isna().any().any())
+    report("an unsettled newest bar is dropped, the rest still applies",
+           passed, (notes9[0] if notes9 else status9))
+
+    # 9b. the same row on a date we already hold. merge() lets new rows win, so
+    #     an unsettled bar would otherwise blank out a good stored price.
+    stale = base.iloc[95:].copy()
+    stale.loc[stale.index[2], "Close"] = np.nan          # a date inside hist
+    frame9b, status9b, _ = update_one("V", hist, stale, [], hist.Date.max())
+    passed = (status9b == "ok" and frame9b is not None and len(frame9b) == 120
+              and not frame9b[["Open", "High", "Low", "Close"]].isna().any().any())
+    report("an incomplete row never overwrites a good stored one", passed,
+           status9b if not passed else "")
+
+    # 10. if the feed hands back nothing but incomplete bars, that is an absence
+    #     of data, not corruption: report it and leave the file alone.
+    allbad = base.iloc[95:].copy()
+    allbad["Low"] = np.nan
+    frame10, status10, notes10 = update_one("N", hist, allbad, [], hist.Date.max())
+    report("a block of only incomplete bars is no_new_data, not quarantine",
+           status10 == "no_new_data" and frame10 is None,
+           notes10[-1] if notes10 else status10)
+
+    # 11. the gate is still the backstop — and now it says what it saw.
+    holed = base.copy()
+    holed.loc[holed.index[50], "High"] = np.nan
+    msg = " ".join(check_frame(holed))
+    passed = ("1 NaN prices" in msg and "High" in msg
+              and str(holed.Date.iloc[50].date()) in msg)
+    report("the NaN gate names the date and the column", passed, msg)
 
     print("\n" + ("ALL CHECKS PASSED" if ok else "SOME CHECKS FAILED"))
     return 0 if ok else 1
