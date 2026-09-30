@@ -447,17 +447,26 @@ has **no mapping table today** — one would have to be added there.
 - **A text editor** — VS Code or Notepad++. Never Word.
 - **Python 3** on the laptop, for `FF_healthcheck.py` and
   `make_context_pack.py` (no packages needed). **Not installed by default on
-  Windows.** If typing `python` opens the Microsoft Store or "Python Install
-  Manager" instead of running, Python is missing. Install it from that page
-  (or from https://www.python.org/downloads/ — on the first installer screen
-  tick **"Add python.exe to PATH"**), then **close Command Prompt and open a
-  new one** and check with `python --version`. Found in the first fire drill,
-  30 September 2026.
+  Windows.** If typing `python` says *"Python was not found; run without
+  arguments to install from the Microsoft Store"*, or opens the Store, Python
+  is missing. What worked on 30 September 2026 (first fire drill):
+  1. Install **Python Install Manager** from the Microsoft Store page that
+     opens (publisher: Python Software Foundation).
+  2. Open a **new** Command Prompt and type `py install default`. (Plain
+     `py install` without `default` gives an error. Typing `py --version`
+     also works — with no Python present it installs the latest release
+     automatically.)
+  3. If it asks to add a directory to PATH, answer `y`.
+  4. Check with `py --version`.
+  From then on use **`py`**, not `python`. If `py` is "not recognized":
+  Start → *Manage app execution aliases* → turn **off** "App Installer —
+  python.exe / python3.exe", toggle "Python (default)" and "Python install
+  manager" off and on, open a new Command Prompt.
 - **How to run a script from the repository** — Start → type `cmd` → open
   Command Prompt, then type exactly:
   ```
   cd C:\Users\hp\GitHub\ff-live-dashboard
-  python FF_healthcheck.py
+  py FF_healthcheck.py
   ```
   The `cd` line matters: without it Windows looks for the file in the wrong
   folder.
