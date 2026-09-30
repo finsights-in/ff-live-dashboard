@@ -445,8 +445,22 @@ has **no mapping table today** — one would have to be added there.
 - **GitHub Desktop** — to see changes, commit and push. Always **Fetch/Pull**
   before you edit anything; the daily job commits every evening.
 - **A text editor** — VS Code or Notepad++. Never Word.
-- **Python 3.12** on the laptop, for `FF_healthcheck.py` and
-  `make_context_pack.py` (no packages needed).
+- **Python 3** on the laptop, for `FF_healthcheck.py` and
+  `make_context_pack.py` (no packages needed). **Not installed by default on
+  Windows.** If typing `python` opens the Microsoft Store or "Python Install
+  Manager" instead of running, Python is missing. Install it from that page
+  (or from https://www.python.org/downloads/ — on the first installer screen
+  tick **"Add python.exe to PATH"**), then **close Command Prompt and open a
+  new one** and check with `python --version`. Found in the first fire drill,
+  30 September 2026.
+- **How to run a script from the repository** — Start → type `cmd` → open
+  Command Prompt, then type exactly:
+  ```
+  cd C:\Users\hp\GitHub\ff-live-dashboard
+  python FF_healthcheck.py
+  ```
+  The `cd` line matters: without it Windows looks for the file in the wrong
+  folder.
 - **The GitHub website** — Actions tab for logs and manual runs; Settings for
   the org.
 
