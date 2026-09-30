@@ -542,15 +542,12 @@ once; every chat then sees it.
 account has a Project, *FF DASHBOARD MANTAINANCE*, with project instructions
 based on `handover/AI_PROMPT.md`. Its **Context** holds the repository's key
 files added with **+ → Add from GitHub**, so they can be refreshed with
-**Sync** instead of rebuilding a pack. The files selected are:
-`HANDOVER.md`, `handover/AI_PROMPT.md`, `handover/notes/README.md`,
-`handover/notes/FF_Daily_Job_Reliability.md`,
-`handover/notes/FF_Repository_Audit_2026-09-29.md`, both files in
-`.github/workflows/` except `market_probe.yml`, the ten live scripts in
-Section 4.1, `signal_ledger.csv`, `docs/data/meta.json` and
-`handover/last_run_versions.txt`. **Never add `ohlc_data/` or
-`fund_flags_v3.csv`** — too large for the context and not needed to diagnose
-the pipeline. When asking for help, click Sync first, then paste the failing
+**Sync** instead of rebuilding a pack. Selected: the whole `.github/` and
+`handover/` folders, `HANDOVER.md`, the ten live scripts in Section 4.1,
+`signal_ledger.csv` and `docs/data/meta.json` — about 14% of the free
+project's capacity. The picker shows each item's share of capacity; **never
+add `ohlc_data/` (it alone is ~4,500%) or `fund_flags_v3.csv`**, and avoid
+`indices/` and the whole `docs/` folder — not needed to diagnose the pipeline. When asking for help, click Sync first, then paste the failing
 step's last 30 lines; paste `py FF_healthcheck.py` output too if you can. Tested
 30 September on the 28 September NaN log: it matched the 6.3 entry and proposed
 no change.
