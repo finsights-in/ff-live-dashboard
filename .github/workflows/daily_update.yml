@@ -36,6 +36,14 @@ jobs:
         # must not rest on someone else's dependency tree staying the same.
         run: pip install yfinance pandas numpy beautifulsoup4 lxml requests
 
+      # Record the exact package versions this run resolved. The install above
+      # is unpinned, so an upstream release can change behaviour overnight with
+      # no change to this repository. When that happens, the last green run's
+      # versions are the evidence -- and a run log expires after ninety days,
+      # while this file is committed with every successful run. HANDOVER.md 9.4.
+      - name: Record package versions
+        run: pip freeze > handover/last_run_versions.txt
+
       # A fast, network-free proof that the corporate-action logic still
       # behaves before it is allowed anywhere near the real files. If the
       # guard that refuses a non-equity bonus ever breaks, the run stops here
@@ -125,7 +133,7 @@ jobs:
           # not a list: a file that is not there yet must not be fatal.
           for f in ohlc_data fresh_signals.csv signals.csv watchlist_microcap.csv \
                    signal_ledger.csv watchlist_ledger.csv corporate_actions.csv \
-                   indices docs/data; do
+                   handover/last_run_versions.txt indices docs/data; do
             if [ -e "$f" ]; then git add "$f"; else echo "absent, not added: $f"; fi
           done
           git diff --quiet --cached || git commit -m "Automated daily update: $(date +'%Y-%m-%d')"

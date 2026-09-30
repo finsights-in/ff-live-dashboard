@@ -1,5 +1,9 @@
 # FF Live Dashboard
 
+> **Maintaining or fixing this repository? Read [`HANDOVER.md`](HANDOVER.md) first.**
+> It is the current runbook. The file table at the bottom of this page is from
+> August 2026 and lists scripts that are no longer used.
+
 Automated live-tracking dashboard for the Fundamental First equity strategy.
 
 ## What this repo does, automatically
