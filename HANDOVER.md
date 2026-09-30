@@ -305,9 +305,14 @@ compare the `Successfully installed …` line of this run with
 **Symptom:** `FAILING THE RUN: 751 quarantined, above the tolerance of 15` and
 every line reads `QUARANTINED — 1 NaN prices`.
 
-**Cause:** Yahoo's daily bar for the current day had not finished settling
-when the job ran; one field was still null for every symbol. Not a data
-fault. (21, 28, 29 September 2026.)
+**Cause:** Yahoo served a daily row with one field still null for every
+symbol; not a data fault. (21, 28, 29 September 2026.) First read as an
+unsettled bar for the day just closed. Note, found on 30 September: the
+failing scheduled run of 28 September actually *started at 01:42 IST on
+29 September* (see 6.4, schedule delay), i.e. after midnight IST — so the
+null row may equally have been a placeholder for the new Indian trading day
+that had not opened yet. The fix below handles both, because it drops any
+incomplete row whatever its cause.
 
 **Fix:** Already fixed on 29 September — the updater now drops an incomplete
 bar instead of merging it. If it ever recurs with a *different* pattern, the
@@ -434,6 +439,14 @@ has **no mapping table today** — one would have to be added there.
 
 ### 6.4 Things that look like failures but are not
 
+- **The dashboard still shows yesterday at 8–11 PM.** The daily job is
+  scheduled for 19:00 IST, but GitHub starts scheduled runs late when its
+  runners are busy. Measured September 2026: runs started **4½ to 7 hours
+  late** — 23:32 IST (25 Sep), 01:42 IST (28 Sep's run), 00:19 IST (29 Sep's
+  run). So the dashboard normally updates **around midnight to 2 AM IST**.
+  Check the next morning, not the same evening. Only if the next morning
+  still shows the previous trading day is something wrong. To update sooner,
+  Actions → Daily Dashboard Update → **Run workflow**.
 - **Warnings about `absent, not added: corporate_actions.csv`** — expected.
 - **Weekly run commits 1,240 rows of `-1.642` → `-1.6420000000000001`** —
   float formatting noise, no data change.
