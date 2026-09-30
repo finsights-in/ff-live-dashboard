@@ -23,7 +23,7 @@ koi bhi AI ya insaan use padh sake.
    jo step laal hai use kholo → **aakhri 30 lines** padho. Wahi asli error hai.
 3. **Section 6 ki table me wo error dhundo.** Har dekha hua failure wahan
    likha hai, uske fix ke saath.
-4. **Table me nahi mila?** `python make_context_pack.py` chalao (Section 8).
+4. **Table me nahi mila?** `py make_context_pack.py` chalao (Section 8).
    Wo repo folder ke bagal me `FF_CONTEXT_CORE.md` banata hai. Use kisi bhi
    AI me upload karo, `handover/AI_PROMPT.md` ka text paste karo, aur error
    ki aakhri 30 lines de do.
@@ -243,11 +243,17 @@ Actions tab. Last five daily runs green. Sunday's weekly run green.
 
 ### Monthly — 5 minutes
 
-From the repository folder, in a terminal or Command Prompt:
+First click **Fetch origin** (then **Pull origin** if it appears) in GitHub
+Desktop. The check reads your local copy, which is only as current as your
+last pull — without it, "price data currency" reports the day you last
+pulled, not the day the pipeline last ran. Then, from the repository
+folder, in Command Prompt:
 
 ```
-python FF_healthcheck.py
+py FF_healthcheck.py
 ```
+
+Verified on Windows (Python 3.14.7) on 30 September 2026: 14 PASS, 3 WARN.
 
 It needs only Python — no packages. It prints one line per check, `PASS`,
 `WARN` or `FAIL`, in plain English, and ends with a verdict and a short list
@@ -272,7 +278,7 @@ General). See open issue 9.3.
 2. Actions tab → the red run → the `update` job → expand the red step → read
    the **last 30 lines**. The real error is almost always in the last 5.
 3. Find the message in 6.3 below.
-4. If it is not there: `python FF_healthcheck.py`, then Section 8.
+4. If it is not there: `py FF_healthcheck.py`, then Section 8.
 5. After any fix: **re-run the workflow by hand** (Actions → Run workflow) and
    watch it go green. Do not wait for tomorrow's schedule to find out.
 
@@ -352,7 +358,7 @@ cd C:\Users\hp\GitHub\ff-live-dashboard
 del .git\index.lock .git\HEAD.lock .git\ORIG_HEAD.lock .git\objects\maintenance.lock
 ```
 (Missing ones just say "could not find" — harmless.) Reopen GitHub Desktop.
-`python FF_healthcheck.py` reports stale locks and prints this exact command.
+`py FF_healthcheck.py` reports stale locks and prints this exact command.
 
 ---
 
@@ -478,7 +484,7 @@ has **no mapping table today** — one would have to be added there.
 1. Fetch in GitHub Desktop first.
 2. Make the change.
 3. If it is a Python script with a `--selftest`, run it:
-   `python FF_OHLC_Updater_v2.py --selftest` — needs `pip install pandas numpy`
+   `py FF_OHLC_Updater_v2.py --selftest` — needs `py -m pip install pandas numpy`
    once. `ALL CHECKS PASSED` or do not commit.
 4. Commit with a message that says **why**, not just what. The existing
    history is the model.
@@ -509,7 +515,7 @@ English.
 
 1. In the repository folder run:
    ```
-   python make_context_pack.py
+   py make_context_pack.py
    ```
    It creates, **one level up** (next to the repository folder, so git never
    sees them):
@@ -531,6 +537,23 @@ English.
 
 If the AI's plan supports Projects, put the pack in a Project's knowledge
 once; every chat then sees it.
+
+**What is set up today (30 September 2026).** Priyanshu's free claude.ai
+account has a Project, *FF DASHBOARD MANTAINANCE*, with project instructions
+based on `handover/AI_PROMPT.md`. Its **Context** holds the repository's key
+files added with **+ → Add from GitHub**, so they can be refreshed with
+**Sync** instead of rebuilding a pack. The files selected are:
+`HANDOVER.md`, `handover/AI_PROMPT.md`, `handover/notes/README.md`,
+`handover/notes/FF_Daily_Job_Reliability.md`,
+`handover/notes/FF_Repository_Audit_2026-09-29.md`, both files in
+`.github/workflows/` except `market_probe.yml`, the ten live scripts in
+Section 4.1, `signal_ledger.csv`, `docs/data/meta.json` and
+`handover/last_run_versions.txt`. **Never add `ohlc_data/` or
+`fund_flags_v3.csv`** — too large for the context and not needed to diagnose
+the pipeline. When asking for help, click Sync first, then paste the failing
+step's last 30 lines; paste `py FF_healthcheck.py` output too if you can. Tested
+30 September on the 28 September NaN log: it matched the 6.3 entry and proposed
+no change.
 
 ### Tier 3 — any other AI (ChatGPT, Gemini, a local model)
 

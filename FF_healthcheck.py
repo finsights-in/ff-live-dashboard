@@ -545,7 +545,9 @@ def main():
         print("\nWhat to do next:")
         for i, (l, t, a) in enumerate(todo, 1):
             print(f"  {i}. [{l}] {t}\n       -> {a}")
-    print("\nIf this is not enough: python make_context_pack.py, then HANDOVER.md section 8.")
+    print("\nThis reads your LOCAL copy - Fetch/Pull in GitHub Desktop first for today's state.")
+    print("If this is not enough: py make_context_pack.py (Windows; python elsewhere),"
+          " then HANDOVER.md section 8.")
     return 2 if fails else 0
 
 
