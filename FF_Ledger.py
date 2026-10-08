@@ -74,6 +74,13 @@ def read_ledger(path):
                                        "first_published"])
     for c in COLS:
         if c not in d.columns: d[c] = pd.NA
+    # Exit fields stay blank until a position closes, and a column that is blank
+    # in every row is read back as float64. pandas 3 refuses to write a word into
+    # a float column, so the first target ever hit crashed this script with
+    # "Invalid value 'ATH_TARGET' for dtype 'float64'" - in October 2026, five
+    # weeks after the ledger began, because until then nothing had closed. The
+    # reason is text by definition; read it as text whatever the file holds.
+    d["exit_reason"] = d["exit_reason"].astype("object")
     return d[COLS]
 
 
