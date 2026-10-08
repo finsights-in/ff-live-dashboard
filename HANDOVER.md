@@ -321,6 +321,22 @@ Open)`. Re-run the workflow an hour later; it will pass.
 
 ---
 
+**Symptom:** step "Update the signal ledger" fails with
+`TypeError: Invalid value 'ATH_TARGET' for dtype 'float64'` (or `TIME_STOP`),
+and fails again on every run after.
+
+**Cause:** the first exit ever. `exit_reason` is blank in every ledger row
+until something closes, so pandas reads it as a number column, and pandas 3
+refuses to write a word into it. First hit 6 October 2026, when OPTIEMUS
+(Micro Cap watchlist) reached its target. (7–8 October 2026.)
+
+**Fix:** Already fixed on 8 October — `read_ledger()` in `FF_Ledger.py` reads
+`exit_reason` as text. If the same `Invalid value ... for dtype` error ever
+appears for another column, the fix is the same one line for that column:
+`d["<column>"] = d["<column>"].astype("object")`.
+
+---
+
 **Symptom:** `fatal: pathspec 'corporate_actions.csv' did not match any files`
 then `exit code 128` in the commit step, after every other step succeeded.
 
