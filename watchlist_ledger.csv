@@ -1,5 +1,5 @@
 signal_id,symbol,market_type,trigger_date,entry_date,entry_price,target_ath,trigger_close,drawdown_pct,first_published,record,exit_date,exit_price,exit_reason,status
-OPTIEMUS@2026-06-01,OPTIEMUS,Micro Cap,2026-06-01,2026-06-02,395.95,851.2,395.95,-53.48,2026-09-05,reconstructed,,,,OPEN
+OPTIEMUS@2026-06-01,OPTIEMUS,Micro Cap,2026-06-01,2026-06-02,395.95,851.2,395.95,-53.48,2026-09-05,reconstructed,2026-10-06,851.2,ATH_TARGET,CLOSED
 SUDARSCHEM@2026-06-01,SUDARSCHEM,Micro Cap,2026-06-01,2026-06-02,898.55,1523.8,906.6,-40.5,2026-09-05,reconstructed,,,,OPEN
 CSBBANK@2026-06-25,CSBBANK,Micro Cap,2026-06-25,2026-06-29,327.05,557.45,324.6,-41.77,2026-09-05,reconstructed,,,,OPEN
 JSFB@2026-07-08,JSFB,Micro Cap,2026-07-08,2026-07-09,442.0,736.2,441.2,-40.07,2026-09-05,reconstructed,,,,OPEN
