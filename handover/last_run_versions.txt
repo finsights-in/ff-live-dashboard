@@ -11,7 +11,7 @@ pandas==3.0.6
 peewee==4.5.3
 platformdirs==4.12.4
 protobuf==7.36.2
-pycparser==3.1
+pycparser==3.11
 python-dateutil==2.9.0.post0
 pytz==2026.5
 requests==2.34.2
