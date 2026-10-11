@@ -1937,6 +1937,7 @@ ANANDRATHI,2025-09-30,297.37,99.8,6.015,Small Cap,True,True,False,True,2025-11-2
 ANANDRATHI,2025-12-31,289.62,100.11,6.035,Small Cap,False,True,False,False,2026-03-01,historical,12.07,2.0,6.035,False
 ANANDRATHI,2026-03-31,287.82,103.45,3.07,Small Cap,False,True,False,False,2026-04-09,historical,6.14,2.0,3.07,False
 ANANDRATHI,2026-06-30,322.0,163.0,9.8,Small Cap,True,True,False,True,2026-07-09,live_scrape,9.8,1.0,9.8,True
+ANANDRATHI,2026-09-30,334.0,88.0,5.32,Small Cap,True,False,False,False,2026-10-11,live_scrape,5.32,1.0,5.32,False
 ANANTRAJ,2010-03-31,35.260000000000005,30.95,1.02,Small Cap,False,False,False,False,2010-05-30,historical,1.02,1.0,1.02,False
 ANANTRAJ,2010-06-30,103.42,45.87,1.52,Small Cap,False,False,False,False,2010-08-29,historical,1.52,1.0,1.52,False
 ANANTRAJ,2010-09-30,132.85,47.95,1.59,Small Cap,False,False,False,False,2010-11-29,historical,1.59,1.0,1.59,False
@@ -6403,6 +6404,7 @@ CANFINHOME,2025-09-30,1049.45,251.43,18.88,Small Cap,True,True,True,True,2025-11
 CANFINHOME,2025-12-31,1072.83,264.78000000000003,19.89,Small Cap,True,True,True,True,2026-03-01,historical,19.89,1.0,19.89,True
 CANFINHOME,2026-03-31,1073.65,345.67,25.96,Small Cap,True,True,True,True,2026-04-24,historical,25.96,1.0,25.96,True
 CANFINHOME,2026-06-30,1096.0,268.0,20.11,Small Cap,True,False,False,False,2026-07-18,live_scrape,20.11,1.0,20.11,False
+CANFINHOME,2026-09-30,1131.0,275.0,20.62,Small Cap,True,False,False,False,2026-10-11,live_scrape,20.62,1.0,20.62,False
 CANHLIFE,2024-09-30,1829.28,45.54,0.39,Small Cap,False,False,False,False,2024-11-29,historical,0.39,1.0,0.39,False
 CANHLIFE,2024-12-31,2005.32,71.51,0.31,Small Cap,False,False,False,False,2025-03-01,historical,0.31,1.0,0.31,False
 CANHLIFE,2025-03-31,2703.4700000000003,22.19,0.34,Small Cap,False,False,False,False,2025-05-30,historical,0.34,1.0,0.34,False
@@ -6411,6 +6413,7 @@ CANHLIFE,2025-09-30,2259.73,109.95,0.43,Small Cap,False,False,False,False,2025-1
 CANHLIFE,2025-12-31,2867.16,28.79,0.29,Small Cap,False,False,False,False,2026-03-01,historical,0.29,1.0,0.29,False
 CANHLIFE,2026-03-31,3060.66,8.6,0.37,Small Cap,False,False,False,False,2026-04-28,historical,0.37,1.0,0.37,False
 CANHLIFE,2026-06-30,4351.0,28.0,0.3,Small Cap,True,False,False,False,2026-07-20,live_scrape,0.3,1.0,0.3,False
+CANHLIFE,2026-09-30,2555.0,43.0,0.45,Small Cap,False,False,True,False,2026-10-11,live_scrape,0.45,1.0,0.45,False
 CAPILLARY,2024-12-31,159.0,11.42,1.36,Micro Cap,False,False,False,False,2025-03-01,historical,1.36,1.0,1.36,False
 CAPILLARY,2025-03-31,152.07999999999998,13.01,1.33,Micro Cap,False,False,False,False,2025-05-30,historical,1.33,1.0,1.33,False
 CAPILLARY,2025-06-30,42.33,-5.12,,Micro Cap,False,False,False,False,2025-08-29,historical,,1.0,,False
@@ -8363,6 +8366,7 @@ CRAMC,2025-09-30,107.65,48.71,2.44,Micro Cap,False,False,False,False,2025-11-29,
 CRAMC,2025-12-31,121.32,52.75,2.65,Micro Cap,True,False,False,False,2026-03-01,historical,2.65,1.0,2.65,False
 CRAMC,2026-03-31,114.2,41.36,2.07,Micro Cap,False,False,False,False,2026-04-27,historical,2.07,1.0,2.07,False
 CRAMC,2026-06-30,145.0,76.0,3.79,Micro Cap,True,True,True,True,2026-07-21,live_scrape,3.79,1.0,3.79,True
+CRAMC,2026-09-30,128.0,59.0,2.97,Micro Cap,False,False,False,False,2026-10-11,live_scrape,2.97,1.0,2.97,False
 CREDITACC,2017-09-30,213.94,61.03,7.02,Small Cap,False,False,False,False,2017-11-29,historical,7.02,1.0,7.02,False
 CREDITACC,2017-12-31,227.76,64.36,6.5,Small Cap,False,False,False,False,2018-03-01,historical,6.5,1.0,6.5,False
 CREDITACC,2018-03-31,249.92,71.71000000000001,6.71,Small Cap,False,False,False,False,2018-05-30,historical,6.71,1.0,6.71,False
@@ -9696,6 +9700,7 @@ DMART,2025-09-30,16676.3,684.85,10.49,Large Cap,True,False,False,False,2025-11-2
 DMART,2025-12-31,18100.88,855.78,13.13,Large Cap,True,True,True,True,2026-03-01,historical,13.13,1.0,13.13,True
 DMART,2026-03-31,17683.86,656.42,10.09,Large Cap,False,False,False,False,2026-05-02,historical,10.09,1.0,10.09,False
 DMART,2026-06-30,18795.0,860.0,13.19,Large Cap,True,True,True,True,2026-07-11,live_scrape,13.19,1.0,13.19,True
+DMART,2026-09-30,19206.0,804.0,12.32,Large Cap,True,False,False,False,2026-10-11,live_scrape,12.32,1.0,12.32,False
 DOMS,2022-12-31,303.73,27.07,4.81,Small Cap,False,False,False,False,2023-03-01,historical,4.81,1.0,4.81,False
 DOMS,2023-03-31,336.48,36.21,6.44,Small Cap,False,False,False,False,2023-05-30,historical,6.44,1.0,6.44,False
 DOMS,2023-06-30,379.41,36.32,6.46,Small Cap,False,False,False,False,2023-08-29,historical,6.46,1.0,6.46,False
@@ -26514,6 +26519,7 @@ POONAWALLA,2025-09-30,1542.3,74.2,0.95,Small Cap,True,False,False,False,2025-11-
 POONAWALLA,2025-12-31,1818.42,150.22,1.85,Small Cap,True,False,False,False,2026-03-01,historical,1.85,1.0,1.85,False
 POONAWALLA,2026-03-31,2115.49,254.79,3.14,Small Cap,True,False,False,False,2026-05-05,historical,3.14,1.0,3.14,False
 POONAWALLA,2026-06-30,2330.0,308.0,3.49,Small Cap,True,True,True,True,2026-07-17,live_scrape,3.49,1.0,3.49,True
+POONAWALLA,2026-09-30,2624.0,375.0,4.26,Small Cap,True,True,True,True,2026-10-11,live_scrape,4.26,1.0,4.26,True
 POWERGRID,2010-03-31,2021.3,546.52,,Large Cap,False,False,False,False,2010-05-30,historical,,1.77768889,,False
 POWERGRID,2010-06-30,1999.12,703.1800000000001,0.9394219705113868,Large Cap,False,False,False,False,2010-08-29,historical,1.67,1.77768889,0.9394219705113868,False
 POWERGRID,2010-09-30,2126.63,651.4,0.8719185953848201,Large Cap,False,False,False,False,2010-11-29,historical,1.55,1.77768889,0.8719185953848201,False
@@ -32946,6 +32952,7 @@ TCS,2025-09-30,65799.0,12131.0,33.37,Large Cap,True,False,False,False,2025-11-29
 TCS,2025-12-31,67087.0,10720.0,29.45,Large Cap,True,False,False,False,2026-03-01,historical,29.45,1.0,29.45,False
 TCS,2026-03-31,70698.0,13784.0,37.92,Large Cap,True,True,True,True,2026-04-09,historical,37.92,1.0,37.92,True
 TCS,2026-06-30,72275.0,13420.0,36.9,Large Cap,True,False,False,False,2026-07-09,live_scrape,36.9,1.0,36.9,False
+TCS,2026-09-30,60441.0,14104.0,38.98,Large Cap,False,True,True,False,2026-10-11,live_scrape,38.98,1.0,38.98,False
 TDPOWERSYS,2011-06-30,199.23,12.52,,Micro Cap,False,False,False,False,2011-08-29,historical,,10.0,,False
 TDPOWERSYS,2011-09-30,259.41,14.89,0.5559999999999999,Micro Cap,False,False,False,False,2011-11-29,historical,5.56,10.0,0.5559999999999999,False
 TDPOWERSYS,2011-12-31,282.51,17.84,0.537,Micro Cap,False,False,False,False,2012-02-29,historical,5.37,10.0,0.537,False
