@@ -655,6 +655,7 @@ ABSLAMC,2025-09-30,461.32,241.32,8.34,Small Cap,True,False,False,False,2025-11-2
 ABSLAMC,2025-12-31,478.08,269.52,9.31,Small Cap,True,False,False,False,2026-03-01,historical,9.31,1.0,9.31,False
 ABSLAMC,2026-03-31,458.23,187.11,6.46,Small Cap,False,False,False,False,2026-04-23,historical,6.46,1.0,6.46,False
 ABSLAMC,2026-06-30,463.0,309.0,10.7,Small Cap,False,True,True,False,2026-07-21,live_scrape,10.7,1.0,10.7,False
+ABSLAMC,2026-09-30,476.0,224.0,7.75,Small Cap,False,False,False,False,2026-10-25,live_scrape,7.75,1.0,7.75,False
 ACC,2010-03-31,2275.21,392.9,20.88,Mid Cap,False,False,False,False,2010-05-30,historical,20.88,1.0,20.88,False
 ACC,2010-06-30,2209.2,349.47,18.57,Mid Cap,False,False,False,False,2010-08-29,historical,18.57,1.0,18.57,False
 ACC,2010-09-30,1798.78,86.27000000000001,4.59,Mid Cap,False,False,False,False,2010-11-29,historical,4.59,1.0,4.59,False
@@ -892,6 +893,7 @@ ADANIENSOL,2025-09-30,6595.83,557.1,4.44,Large Cap,False,False,False,False,2025-
 ADANIENSOL,2025-12-31,6729.65,574.0600000000001,4.6,Large Cap,False,False,False,False,2026-03-01,historical,4.6,1.0,4.6,False
 ADANIENSOL,2026-03-31,7443.269999999999,722.65,5.69,Large Cap,True,False,False,False,2026-04-23,historical,5.69,1.0,5.69,False
 ADANIENSOL,2026-06-30,9711.0,1237.0,9.57,Large Cap,True,True,True,True,2026-07-21,live_scrape,9.57,1.0,9.57,True
+ADANIENSOL,2026-09-30,768.0,57.0,0.47,Large Cap,False,False,False,False,2026-10-25,live_scrape,0.47,1.0,0.47,False
 ADANIENT,2010-03-31,7825.710000000001,371.36,7.24,Large Cap,False,False,False,False,2010-05-30,historical,7.24,1.0,7.24,False
 ADANIENT,2010-06-30,5899.35,644.5699999999999,5.57,Large Cap,False,False,False,False,2010-08-29,historical,5.57,1.0,5.57,False
 ADANIENT,2010-09-30,5751.87,585.46,4.95,Large Cap,False,False,False,False,2010-11-29,historical,4.95,1.0,4.95,False
@@ -995,6 +997,7 @@ ADANIGREEN,2025-09-30,3008.0,644.0,3.44,Large Cap,False,False,False,False,2025-1
 ADANIGREEN,2025-12-31,2618.0,5.0,-0.38,Large Cap,False,False,False,False,2026-03-01,historical,-0.38,1.0,-0.38,False
 ADANIGREEN,2026-03-31,3502.0,514.0,2.33,Large Cap,False,False,False,False,2026-04-24,historical,2.33,1.0,2.33,False
 ADANIGREEN,2026-06-30,4431.0,983.0,5.13,Large Cap,True,True,True,True,2026-07-22,live_scrape,5.13,1.0,5.13,True
+ADANIGREEN,2026-09-30,7890.0,33.0,0.2,Large Cap,True,False,False,False,2026-10-25,live_scrape,0.2,1.0,0.2,False
 ADANIPORTS,2010-03-31,420.54,192.17,,Large Cap,False,False,False,False,2010-05-30,historical,,1.0,,False
 ADANIPORTS,2010-06-30,415.65,211.3,5.27,Large Cap,False,False,False,False,2010-08-29,historical,5.27,1.0,5.27,False
 ADANIPORTS,2010-09-30,413.5100000000001,211.67,1.06,Large Cap,False,False,False,False,2010-11-29,historical,1.06,1.0,1.06,False
@@ -1127,6 +1130,7 @@ ADANIPOWER,2025-09-30,13456.84,2906.46,1.53,Large Cap,False,False,False,False,20
 ADANIPOWER,2025-12-31,12451.44,2488.09,1.29,Large Cap,False,False,False,False,2026-03-01,historical,1.29,1.0,1.29,False
 ADANIPOWER,2026-03-31,14223.09,4271.4,2.08,Large Cap,False,True,False,False,2026-04-29,historical,2.08,1.0,2.08,False
 ADANIPOWER,2026-06-30,18902.0,4867.0,2.49,Large Cap,True,True,True,True,2026-07-22,live_scrape,2.49,1.0,2.49,True
+ADANIPOWER,2026-09-30,17416.0,6262.0,3.25,Large Cap,False,True,True,False,2026-10-25,live_scrape,3.25,1.0,3.25,False
 ADVENZYMES,2015-06-30,68.38,18.77,,Micro Cap,False,False,False,False,2015-08-29,historical,,5.0,,False
 ADVENZYMES,2015-09-30,70.47,14.73,1.33,Micro Cap,False,False,False,False,2015-11-29,historical,6.65,5.0,1.33,False
 ADVENZYMES,2015-12-31,74.45,20.52,1.83,Micro Cap,False,False,False,False,2016-02-29,historical,9.15,5.0,1.83,False
@@ -2337,6 +2341,7 @@ APOLLO,2025-09-30,225.26,30.03,0.88,Micro Cap,True,True,True,True,2025-11-29,his
 APOLLO,2025-12-31,252.22,22.880000000000003,0.68,Micro Cap,True,False,False,False,2026-03-01,historical,0.68,1.0,0.68,False
 APOLLO,2026-03-31,293.26,36.79,1.08,Micro Cap,True,True,True,True,2026-05-18,historical,1.08,1.0,1.08,True
 APOLLO,2026-06-30,251.0,25.0,0.72,Micro Cap,False,False,False,False,2026-08-08,live_scrape,0.72,1.0,0.72,False
+APOLLO,2026-09-30,306.0,48.0,1.28,Micro Cap,True,True,True,True,2026-10-25,live_scrape,1.28,1.0,1.28,True
 APOLLOHOSP,2010-03-31,482.9,29.2,2.34,Large Cap,False,False,False,False,2010-05-30,historical,2.34,1.0,2.34,False
 APOLLOHOSP,2010-06-30,523.29,39.27,3.11,Large Cap,False,False,False,False,2010-08-29,historical,3.11,1.0,3.11,False
 APOLLOHOSP,2010-09-30,586.4,49.55,3.84,Large Cap,False,False,False,False,2010-11-29,historical,3.84,1.0,3.84,False
@@ -3210,6 +3215,7 @@ ATGL,2025-09-30,1451.26,163.49,1.49,Mid Cap,True,False,False,False,2025-11-29,hi
 ATGL,2025-12-31,1507.35,158.65,1.44,Mid Cap,True,False,False,False,2026-03-01,historical,1.44,1.0,1.44,False
 ATGL,2026-03-31,1557.22,168.34,1.53,Mid Cap,True,False,False,False,2026-04-27,historical,1.53,1.0,1.53,False
 ATGL,2026-06-30,1754.0,142.0,1.29,Mid Cap,True,False,False,False,2026-07-21,live_scrape,1.29,1.0,1.29,False
+ATGL,2026-09-30,1936.0,167.0,1.52,Mid Cap,True,False,False,False,2026-10-25,live_scrape,1.52,1.0,1.52,False
 ATHERENERG,2024-03-31,523.4,-283.3,-11.0,Small Cap,False,False,False,False,2024-05-30,historical,-11.0,1.0,-11.0,False
 ATHERENERG,2024-06-30,360.5,-182.9,-7.0,Small Cap,False,False,False,False,2024-08-29,historical,-7.0,1.0,-7.0,False
 ATHERENERG,2024-09-30,583.5,-197.2,-8.0,Small Cap,False,False,False,False,2024-11-29,historical,-8.0,1.0,-8.0,False
@@ -3295,6 +3301,7 @@ ATUL,2025-09-30,1551.85,182.37,60.88,Small Cap,True,True,True,True,2025-11-29,hi
 ATUL,2025-12-31,1573.62,163.54000000000002,54.6,Small Cap,True,False,False,False,2026-03-01,historical,54.6,1.0,54.6,False
 ATUL,2026-03-31,1670.0700000000002,211.12,71.38,Small Cap,True,True,True,True,2026-04-24,historical,71.38,1.0,71.38,True
 ATUL,2026-06-30,1848.0,254.0,83.32,Small Cap,True,True,True,True,2026-07-24,live_scrape,83.32,1.0,83.32,True
+ATUL,2026-09-30,1623.0,141.0,48.04,Small Cap,False,False,False,False,2026-10-25,live_scrape,48.04,1.0,48.04,False
 AUBANK,2016-06-30,292.35,590.79,1.1,Mid Cap,False,False,False,False,2016-08-29,historical,2.2,2.0,1.1,False
 AUBANK,2016-09-30,323.86,70.35,1.3,Mid Cap,False,False,False,False,2016-11-29,historical,2.6,2.0,1.3,False
 AUBANK,2016-12-31,326.09000000000003,82.92,1.49,Mid Cap,False,False,False,False,2017-03-01,historical,2.98,2.0,1.49,False
@@ -3336,6 +3343,7 @@ AUBANK,2025-09-30,4511.280000000001,560.87,7.48,Mid Cap,True,False,False,False,2
 AUBANK,2025-12-31,4727.469999999999,667.6600000000001,8.87,Mid Cap,True,True,True,True,2026-03-01,historical,8.87,1.0,8.87,True
 AUBANK,2026-03-31,5019.15,831.8700000000001,11.01,Mid Cap,True,True,True,True,2026-04-27,historical,11.01,1.0,11.01,True
 AUBANK,2026-06-30,5303.0,796.0,10.63,Mid Cap,True,False,False,False,2026-07-25,live_scrape,10.63,1.0,10.63,False
+AUBANK,2026-09-30,5612.0,858.0,11.42,Mid Cap,True,True,True,True,2026-10-25,live_scrape,11.42,1.0,11.42,True
 AURIONPRO,2010-03-31,102.47,12.54,4.09,Micro Cap,False,False,False,False,2010-05-30,historical,8.18,2.0,4.09,False
 AURIONPRO,2010-06-30,96.94,13.080000000000002,4.3,Micro Cap,False,False,False,False,2010-08-29,historical,8.6,2.0,4.3,False
 AURIONPRO,2010-09-30,104.66,11.61,3.76,Micro Cap,False,False,False,False,2010-11-29,historical,7.52,2.0,3.76,False
@@ -4129,6 +4137,7 @@ BAJFINANCE,2025-09-30,20178.9,4947.76,7.83,Large Cap,True,True,False,True,2025-1
 BAJFINANCE,2025-12-31,21213.89,4066.01,6.38,Large Cap,True,False,False,False,2026-03-01,historical,6.38,1.0,6.38,False
 BAJFINANCE,2026-03-31,21605.79,5553.3,8.76,Large Cap,True,True,False,True,2026-04-29,historical,8.76,1.0,8.76,True
 BAJFINANCE,2026-06-30,23165.0,6081.0,9.61,Large Cap,True,True,False,True,2026-07-30,live_scrape,9.61,1.0,9.61,True
+BAJFINANCE,2026-09-30,20891.0,5536.0,8.89,Large Cap,False,False,False,False,2026-10-25,live_scrape,8.89,1.0,8.89,False
 BALAMINES,2010-03-31,74.03,3.84,1.186,Micro Cap,False,False,False,False,2010-05-30,historical,5.93,5.0,1.186,False
 BALAMINES,2010-06-30,78.91,6.220000000000001,1.92,Micro Cap,False,False,False,False,2010-08-29,historical,9.6,5.0,1.92,False
 BALAMINES,2010-09-30,91.23,9.99,3.084,Micro Cap,False,False,False,False,2010-11-29,historical,15.42,5.0,3.084,False
@@ -4629,6 +4638,7 @@ BANKINDIA,2025-09-30,18521.48,2575.58,5.66,Mid Cap,True,False,False,False,2025-1
 BANKINDIA,2025-12-31,19051.83,2814.27,6.18,Mid Cap,True,True,True,True,2026-03-01,historical,6.18,1.0,6.18,True
 BANKINDIA,2026-03-31,19573.370000000003,3088.9,6.78,Mid Cap,True,True,True,True,2026-05-08,historical,6.78,1.0,6.78,True
 BANKINDIA,2026-06-30,20097.0,3304.0,7.25,Mid Cap,True,True,True,True,2026-07-24,live_scrape,7.25,1.0,7.25,True
+BANKINDIA,2026-09-30,21229.0,3202.0,7.03,Mid Cap,True,False,False,False,2026-10-25,live_scrape,7.03,1.0,7.03,False
 BATAINDIA,2010-03-31,261.57,14.330000000000002,1.115,Small Cap,False,False,False,False,2010-05-30,historical,2.23,2.0,1.115,False
 BATAINDIA,2010-06-30,351.21,25.910000000000004,2.015,Small Cap,False,False,False,False,2010-08-29,historical,4.03,2.0,2.015,False
 BATAINDIA,2010-09-30,294.18,20.72,1.61,Small Cap,False,False,False,False,2010-11-29,historical,3.22,2.0,1.61,False
@@ -5768,6 +5778,7 @@ BLUESTONE,2025-09-30,513.63,-52.1,-3.73,Micro Cap,False,False,True,False,2025-11
 BLUESTONE,2025-12-31,748.65,68.85,4.34,Micro Cap,True,True,True,True,2026-03-01,historical,4.34,1.0,4.34,True
 BLUESTONE,2026-03-31,681.47,31.18,1.97,Micro Cap,False,False,False,False,2026-04-23,historical,1.97,1.0,1.97,False
 BLUESTONE,2026-06-30,736.85,5.96,0.46,Micro Cap,False,False,False,False,2026-07-20,live_scrape,0.46,1.0,0.46,False
+BLUESTONE,2026-09-30,738.09,1.75,0.11,Micro Cap,False,False,False,False,2026-10-25,live_scrape,0.11,1.0,0.11,False
 BORORENEW,2010-03-31,32.96,-4.11,-2.5925,Micro Cap,False,False,False,False,2010-05-30,historical,-10.37,4.0,-2.5925,False
 BORORENEW,2010-06-30,24.83,2.12,1.3375,Micro Cap,False,False,False,False,2010-08-29,historical,5.35,4.0,1.3375,False
 BORORENEW,2010-09-30,30.31,649.77,409.7975,Micro Cap,False,False,False,False,2010-11-29,historical,1639.19,4.0,409.7975,False
@@ -5966,6 +5977,7 @@ BPCL,2025-09-30,104946.27,6191.49,14.49,Large Cap,False,False,False,False,2025-1
 BPCL,2025-12-31,119029.43,7188.4,16.82,Large Cap,True,True,True,True,2026-03-01,historical,16.82,1.0,16.82,True
 BPCL,2026-03-31,118700.88,5624.54,13.16,Large Cap,False,False,False,False,2026-05-12,historical,13.16,1.0,13.16,False
 BPCL,2026-06-30,151277.0,-1873.0,-4.32,Large Cap,True,False,False,False,2026-07-22,live_scrape,-4.32,1.0,-4.32,False
+BPCL,2026-09-30,149041.0,4993.0,11.51,Large Cap,False,False,False,False,2026-10-25,live_scrape,11.51,1.0,11.51,False
 BRIGADE,2010-03-31,138.22,31.95,1.4250356258906474,Small Cap,False,False,False,False,2010-05-30,historical,2.85,1.99995,1.4250356258906474,False
 BRIGADE,2010-06-30,92.49,13.919999999999998,0.6200155003875097,Small Cap,False,False,False,False,2010-08-29,historical,1.24,1.99995,0.6200155003875097,False
 BRIGADE,2010-09-30,122.62,20.0,0.8900222505562639,Small Cap,False,False,False,False,2010-11-29,historical,1.78,1.99995,0.8900222505562639,False
@@ -6650,6 +6662,7 @@ CASTROLIND,2025-09-30,1362.75,227.8,2.3,Small Cap,False,False,False,False,2025-1
 CASTROLIND,2025-12-31,1439.92,244.67,2.47,Small Cap,False,False,False,False,2026-03-01,historical,2.47,1.0,2.47,False
 CASTROLIND,2026-03-31,1545.24,242.18,2.45,Small Cap,True,False,False,False,2026-04-28,historical,2.45,1.0,2.45,False
 CASTROLIND,2026-06-30,1871.0,348.0,3.52,Small Cap,True,True,True,True,2026-08-04,live_scrape,3.52,1.0,3.52,True
+CASTROLIND,2026-09-30,1735.0,176.0,1.78,Small Cap,False,False,False,False,2026-10-25,live_scrape,1.78,1.0,1.78,False
 CCAVENUE,2015-06-30,84.25,2.85,0.017,Micro Cap,False,False,False,False,2015-08-29,historical,0.68,40.0,0.017,False
 CCAVENUE,2015-09-30,87.02000000000001,3.35,0.020499999999999997,Micro Cap,False,False,False,False,2015-11-29,historical,0.82,40.0,0.020499999999999997,False
 CCAVENUE,2015-12-31,90.12,0.29,0.003,Micro Cap,False,False,False,False,2016-02-29,historical,0.12,40.0,0.003,False
@@ -7363,6 +7376,7 @@ CGPOWER,2025-09-30,2922.79,284.44,1.82,Large Cap,True,True,False,False,2025-11-2
 CGPOWER,2025-12-31,3175.35,283.91,1.81,Large Cap,True,False,False,False,2026-03-01,historical,1.81,1.0,1.81,False
 CGPOWER,2026-03-31,3441.76,361.51,2.32,Large Cap,True,True,True,True,2026-05-06,historical,2.32,1.0,2.32,True
 CGPOWER,2026-06-30,3281.0,308.0,1.99,Large Cap,False,False,False,False,2026-07-24,live_scrape,1.99,1.0,1.99,False
+CGPOWER,2026-09-30,3505.0,450.0,2.86,Large Cap,True,True,True,True,2026-10-25,live_scrape,2.86,1.0,2.86,True
 CHALET,2018-06-30,235.33,-22.71,-1.33,Small Cap,False,False,False,False,2018-08-29,historical,-1.33,1.0,-1.33,False
 CHALET,2018-09-30,234.53000000000003,-12.45,-0.73,Small Cap,False,False,False,False,2018-11-29,historical,-0.73,1.0,-0.73,False
 CHALET,2018-12-31,247.44,14.23,0.83,Small Cap,False,False,False,False,2019-03-01,historical,0.83,1.0,0.83,False
@@ -7528,6 +7542,7 @@ CHENNPETRO,2025-09-30,16327.34,719.1899999999999,48.3,Small Cap,False,False,Fals
 CHENNPETRO,2025-12-31,15683.170000000002,1001.59,67.26,Small Cap,False,True,True,False,2026-03-01,historical,67.26,1.0,67.26,False
 CHENNPETRO,2026-03-31,16817.32,1421.85,95.48,Small Cap,False,True,True,False,2026-04-24,historical,95.48,1.0,95.48,False
 CHENNPETRO,2026-06-30,27369.0,1031.0,69.26,Small Cap,True,False,False,False,2026-07-23,live_scrape,69.26,1.0,69.26,False
+CHENNPETRO,2026-09-30,20558.0,2271.0,152.53,Small Cap,False,True,True,False,2026-10-25,live_scrape,152.53,1.0,152.53,False
 CHOICEIN,2010-03-31,12.79,0.37,0.14,Small Cap,False,False,False,False,2010-05-30,historical,0.56,4.0,0.14,False
 CHOICEIN,2010-06-30,5.96,0.43,0.165,Small Cap,False,False,False,False,2010-08-29,historical,0.66,4.0,0.165,False
 CHOICEIN,2010-09-30,12.34,0.91,0.335,Small Cap,False,False,False,False,2010-11-29,historical,1.34,4.0,0.335,False
@@ -7792,6 +7807,7 @@ CIEINDIA,2025-09-30,2371.84,213.17,5.64,Small Cap,False,False,False,False,2025-1
 CIEINDIA,2025-12-31,2393.0,200.8,5.38,Small Cap,False,False,False,False,2026-03-01,historical,5.38,1.0,5.38,False
 CIEINDIA,2026-03-31,2611.95,248.06,6.57,Small Cap,True,True,True,True,2026-04-23,historical,6.57,1.0,6.57,True
 CIEINDIA,2026-06-30,2621.0,236.0,6.21,Small Cap,True,False,False,False,2026-07-22,live_scrape,6.21,1.0,6.21,False
+CIEINDIA,2026-09-30,1406.0,153.0,4.04,Small Cap,False,False,False,False,2026-10-25,live_scrape,4.04,1.0,4.04,False
 CIPLA,2010-03-31,1374.69,275.53000000000003,3.43,Large Cap,False,False,False,False,2010-05-30,historical,3.43,1.0,3.43,False
 CIPLA,2010-06-30,1479.76,257.42,3.21,Large Cap,False,False,False,False,2010-08-29,historical,3.21,1.0,3.21,False
 CIPLA,2010-09-30,1634.39,263.01,3.27,Large Cap,False,False,False,False,2010-11-29,historical,3.27,1.0,3.27,False
@@ -8078,6 +8094,7 @@ COFORGE,2025-09-30,3985.7,425.4,11.07,Mid Cap,True,True,False,True,2025-11-29,hi
 COFORGE,2025-12-31,4231.5,296.7,7.38,Mid Cap,True,False,False,False,2026-03-01,historical,7.38,1.0,7.38,False
 COFORGE,2026-03-31,4450.4,666.2,18.1,Mid Cap,True,True,False,False,2026-05-05,historical,18.1,1.0,18.1,False
 COFORGE,2026-06-30,5528.0,532.0,11.71,Mid Cap,True,False,False,False,2026-07-27,live_scrape,11.71,1.0,11.71,False
+COFORGE,2026-09-30,3812.0,210.0,4.75,Mid Cap,False,False,False,False,2026-10-25,live_scrape,4.75,1.0,4.75,False
 COHANCE,2018-12-31,126.92,34.45,1.355,Small Cap,False,False,False,False,2019-03-01,historical,2.71,2.0,1.355,False
 COHANCE,2019-03-31,250.92,74.82000000000001,2.94,Small Cap,False,False,False,False,2019-05-30,historical,5.88,2.0,2.94,False
 COHANCE,2019-06-30,197.39,91.9,3.61,Small Cap,False,False,False,False,2019-08-29,historical,7.22,2.0,3.61,False
@@ -8175,6 +8192,7 @@ COLPAL,2025-09-30,1519.5,327.51,12.04,Mid Cap,False,False,False,False,2025-11-29
 COLPAL,2025-12-31,1486.13,323.86,11.91,Mid Cap,False,False,False,False,2026-03-01,historical,11.91,1.0,11.91,False
 COLPAL,2026-03-31,1595.35,353.32,12.99,Mid Cap,False,False,False,False,2026-05-22,historical,12.99,1.0,12.99,False
 COLPAL,2026-06-30,1603.0,343.0,12.61,Mid Cap,False,False,False,False,2026-07-29,live_scrape,12.61,1.0,12.61,False
+COLPAL,2026-09-30,1706.0,342.0,12.56,Mid Cap,True,False,False,False,2026-10-25,live_scrape,12.56,1.0,12.56,False
 CONCOR,2010-03-31,950.53,172.72,10.632,Mid Cap,False,False,False,False,2010-05-30,historical,13.29,1.25,10.632,False
 CONCOR,2010-06-30,915.89,193.51,11.912,Mid Cap,False,False,False,False,2010-08-29,historical,14.89,1.25,11.912,False
 CONCOR,2010-09-30,944.18,206.73,12.72,Mid Cap,False,False,False,False,2010-11-29,historical,15.9,1.25,12.72,False
@@ -8413,6 +8431,7 @@ CREDITACC,2025-09-30,1491.98,125.81,7.83,Small Cap,False,False,False,False,2025-
 CREDITACC,2025-12-31,1477.94,252.09,15.68,Small Cap,False,False,False,False,2026-03-01,historical,15.68,1.0,15.68,False
 CREDITACC,2026-03-31,1585.48,339.55,21.11,Small Cap,True,False,False,False,2026-05-08,historical,21.11,1.0,21.11,False
 CREDITACC,2026-06-30,1783.0,493.0,30.79,Small Cap,True,True,True,True,2026-07-24,live_scrape,30.79,1.0,30.79,True
+CREDITACC,2026-09-30,1904.0,502.0,31.25,Small Cap,True,True,True,True,2026-10-25,live_scrape,31.25,1.0,31.25,True
 CRISIL,2010-03-31,143.35,46.15,63.88,Mid Cap,False,False,False,False,2010-05-30,historical,63.88,1.0,63.88,False
 CRISIL,2010-06-30,151.20999999999998,33.31,46.11,Mid Cap,False,False,False,False,2010-08-29,historical,46.11,1.0,46.11,False
 CRISIL,2010-09-30,159.11,75.44,10.44,Mid Cap,False,False,False,False,2010-11-29,historical,10.44,1.0,10.44,False
@@ -8479,6 +8498,7 @@ CRISIL,2025-09-30,911.24,193.1,26.41,Mid Cap,False,False,False,False,2025-11-29,
 CRISIL,2025-12-31,1081.5700000000002,241.5,33.02,Mid Cap,True,True,True,True,2026-03-01,historical,33.02,1.0,33.02,True
 CRISIL,2026-03-31,1057.66,233.26,31.9,Mid Cap,False,False,False,False,2026-04-16,historical,31.9,1.0,31.9,False
 CRISIL,2026-06-30,1075.0,216.0,29.6,Mid Cap,False,False,False,False,2026-07-21,live_scrape,29.6,1.0,29.6,False
+CRISIL,2026-09-30,537.0,152.0,20.78,Mid Cap,False,False,False,False,2026-10-25,live_scrape,20.78,1.0,20.78,False
 CRIZAC,2024-06-30,161.36,41.510000000000005,2.37,Micro Cap,False,False,False,False,2024-08-29,historical,2.37,1.0,2.37,False
 CRIZAC,2024-09-30,129.88,20.25,1.16,Micro Cap,False,False,False,False,2024-11-29,historical,1.16,1.0,1.16,False
 CRIZAC,2024-12-31,217.67,43.29,2.47,Micro Cap,False,False,False,False,2025-03-01,historical,2.47,1.0,2.47,False
@@ -8569,6 +8589,7 @@ CSBBANK,2025-09-30,1109.16,160.32999999999998,9.24,Micro Cap,True,False,False,Fa
 CSBBANK,2025-12-31,1154.23,152.67000000000002,8.8,Micro Cap,True,False,False,False,2026-03-01,historical,8.8,1.0,8.8,False
 CSBBANK,2026-03-31,1200.86,201.58,11.62,Micro Cap,True,True,True,True,2026-05-04,historical,11.62,1.0,11.62,True
 CSBBANK,2026-06-30,1287.0,150.0,8.65,Micro Cap,True,False,False,False,2026-07-22,live_scrape,8.65,1.0,8.65,False
+CSBBANK,2026-09-30,1339.0,183.0,10.53,Micro Cap,True,False,False,False,2026-10-25,live_scrape,10.53,1.0,10.53,False
 CUB,2010-03-31,250.1,34.81,0.557865186299079,Small Cap,False,False,False,False,2010-05-30,historical,0.9,1.613293,0.557865186299079,False
 CUB,2010-06-30,267.22,44.37,0.6818352276988743,Small Cap,False,False,False,False,2010-08-29,historical,1.1,1.613293,0.6818352276988743,False
 CUB,2010-09-30,292.14,61.59,0.9421723146384444,Small Cap,False,False,False,False,2010-11-29,historical,1.52,1.613293,0.9421723146384444,False
@@ -8833,6 +8854,7 @@ CYIENT,2025-09-30,1781.0,142.9,11.48,Small Cap,False,False,False,False,2025-11-2
 CYIENT,2025-12-31,1848.5,97.2,8.26,Small Cap,False,False,False,False,2026-03-01,historical,8.26,1.0,8.26,False
 CYIENT,2026-03-31,1926.9,65.5,4.93,Small Cap,True,False,False,False,2026-04-23,historical,4.93,1.0,4.93,False
 CYIENT,2026-06-30,2076.0,109.0,9.37,Small Cap,True,False,False,False,2026-07-23,live_scrape,9.37,1.0,9.37,False
+CYIENT,2026-09-30,692.0,103.0,9.25,Small Cap,False,False,False,False,2026-10-25,live_scrape,9.25,1.0,9.25,False
 DABUR,2010-03-31,858.25,135.47,0.78,Mid Cap,False,False,False,False,2010-05-30,historical,0.78,1.0,0.78,False
 DABUR,2010-06-30,924.02,107.39,0.61,Mid Cap,False,False,False,False,2010-08-29,historical,0.61,1.0,0.61,False
 DABUR,2010-09-30,982.58,160.43,0.91,Mid Cap,False,False,False,False,2010-11-29,historical,0.91,1.0,0.91,False
@@ -9200,6 +9222,7 @@ DCBBANK,2025-09-30,1822.75,183.91,5.81,Micro Cap,True,True,True,True,2025-11-29,
 DCBBANK,2025-12-31,1860.88,184.74,5.72,Micro Cap,True,True,False,False,2026-03-01,historical,5.72,1.0,5.72,False
 DCBBANK,2026-03-31,1907.27,205.65,6.35,Micro Cap,True,True,True,True,2026-04-24,historical,6.35,1.0,6.35,True
 DCBBANK,2026-06-30,1984.0,213.0,6.62,Micro Cap,True,True,True,True,2026-07-24,live_scrape,6.62,1.0,6.62,True
+DCBBANK,2026-09-30,2050.0,236.0,7.34,Micro Cap,True,True,True,True,2026-10-25,live_scrape,7.34,1.0,7.34,True
 DCMSHRIRAM,2010-03-31,898.61,15.27,0.92,Small Cap,False,False,False,False,2010-05-30,historical,0.92,1.0,0.92,False
 DCMSHRIRAM,2010-06-30,1020.25,-9.42,-0.57,Small Cap,False,False,False,False,2010-08-29,historical,-0.57,1.0,-0.57,False
 DCMSHRIRAM,2010-09-30,1052.83,-28.99,-1.75,Small Cap,False,False,False,False,2010-11-29,historical,-1.75,1.0,-1.75,False
@@ -9794,6 +9817,7 @@ DRREDDY,2025-09-30,8828.3,1336.8,16.17,Large Cap,True,False,False,False,2025-11-
 DRREDDY,2025-12-31,8753.4,1189.6,14.52,Large Cap,False,False,False,False,2026-03-01,historical,14.52,1.0,14.52,False
 DRREDDY,2026-03-31,7546.4,221.3,2.65,Large Cap,False,False,False,False,2026-05-12,historical,2.65,1.0,2.65,False
 DRREDDY,2026-06-30,8100.0,436.0,5.32,Large Cap,False,False,False,False,2026-07-22,live_scrape,5.32,1.0,5.32,False
+DRREDDY,2026-09-30,5573.0,696.0,8.34,Large Cap,False,False,False,False,2026-10-25,live_scrape,8.34,1.0,8.34,False
 DYNAMATECH,2010-03-31,120.14,2.63,4.85,Micro Cap,False,False,False,False,2010-05-30,historical,4.85,1.0,4.85,False
 DYNAMATECH,2010-06-30,113.74,2.19,4.05,Micro Cap,False,False,False,False,2010-08-29,historical,4.05,1.0,4.05,False
 DYNAMATECH,2010-09-30,125.01,6.74,12.45,Micro Cap,False,False,False,False,2010-11-29,historical,12.45,1.0,12.45,False
@@ -10980,6 +11004,7 @@ ETERNAL,2025-09-30,13590.0,65.0,0.07,Large Cap,True,False,False,False,2025-11-29
 ETERNAL,2025-12-31,16315.0,102.0,0.11,Large Cap,True,False,False,False,2026-03-01,historical,0.11,1.0,0.11,False
 ETERNAL,2026-03-31,17292.0,174.0,0.19,Large Cap,True,False,False,False,2026-04-28,historical,0.19,1.0,0.19,False
 ETERNAL,2026-06-30,20211.0,92.0,0.1,Large Cap,True,False,False,False,2026-07-22,live_scrape,0.1,1.0,0.1,False
+ETERNAL,2026-09-30,3663.0,641.0,0.66,Large Cap,False,True,True,False,2026-10-25,live_scrape,0.66,1.0,0.66,False
 ETHOSLTD,2021-03-31,123.1,4.5,,Micro Cap,False,False,False,False,2021-05-30,historical,,1.0,,False
 ETHOSLTD,2021-06-30,88.94,0.8400000000000001,0.46,Micro Cap,False,False,False,False,2021-08-29,historical,0.46,1.0,0.46,False
 ETHOSLTD,2021-09-30,134.37,2.66,1.46,Micro Cap,False,False,False,False,2021-11-29,historical,1.46,1.0,1.46,False
@@ -11843,6 +11868,7 @@ GAEL,2025-09-30,1486.69,38.02,0.83,Micro Cap,True,False,False,False,2025-11-29,h
 GAEL,2025-12-31,1484.17,65.92,1.44,Micro Cap,False,False,False,False,2026-03-01,historical,1.44,1.0,1.44,False
 GAEL,2026-03-31,1466.51,135.32,2.95,Micro Cap,False,True,True,False,2026-05-09,historical,2.95,1.0,2.95,False
 GAEL,2026-06-30,1594.0,177.0,3.85,Micro Cap,True,True,True,True,2026-08-01,live_scrape,3.85,1.0,3.85,True
+GAEL,2026-09-30,1451.0,132.0,2.88,Micro Cap,False,False,False,False,2026-10-25,live_scrape,2.88,1.0,2.88,False
 GAIL,2010-03-31,6569.030000000001,910.82,1.795044876121903,Large Cap,False,False,False,False,2010-05-30,historical,7.18,3.9999,1.795044876121903,False
 GAIL,2010-06-30,7115.75,886.8799999999999,1.7475436885922149,Large Cap,False,False,False,False,2010-08-29,historical,6.99,3.9999,1.7475436885922149,False
 GAIL,2010-09-30,8128.219999999999,923.55,1.8200455011375285,Large Cap,False,False,False,False,2010-11-29,historical,7.28,3.9999,1.8200455011375285,False
@@ -11975,6 +12001,7 @@ GALLANTT,2025-09-30,1012.75,88.92999999999999,3.62,Small Cap,False,False,False,F
 GALLANTT,2025-12-31,1073.58,100.41,4.16,Small Cap,False,False,False,False,2026-03-01,historical,4.16,1.0,4.16,False
 GALLANTT,2026-03-31,1204.81,122.83,5.09,Small Cap,True,False,False,False,2026-05-05,historical,5.09,1.0,5.09,False
 GALLANTT,2026-06-30,1146.0,124.0,5.13,Small Cap,False,False,False,False,2026-07-27,live_scrape,5.13,1.0,5.13,False
+GALLANTT,2026-09-30,1146.0,61.0,2.51,Small Cap,False,False,False,False,2026-10-25,live_scrape,2.51,1.0,2.51,False
 GESHIP,2010-03-31,778.39,155.73,10.21,Small Cap,False,False,False,False,2010-05-30,historical,10.21,1.0,10.21,False
 GESHIP,2010-06-30,644.3100000000001,172.99,11.26,Small Cap,False,False,False,False,2010-08-29,historical,11.26,1.0,11.26,False
 GESHIP,2010-09-30,630.96,169.92000000000002,11.05,Small Cap,False,False,False,False,2010-11-29,historical,11.05,1.0,11.05,False
@@ -12976,6 +13003,7 @@ GODREJPROP,2025-09-30,740.38,402.99,13.45,Mid Cap,False,False,False,False,2025-1
 GODREJPROP,2025-12-31,498.36,193.87,6.48,Mid Cap,False,False,False,False,2026-03-01,historical,6.48,1.0,6.48,False
 GODREJPROP,2026-03-31,3458.13,645.4399999999999,21.57,Mid Cap,True,True,True,True,2026-05-04,historical,21.57,1.0,21.57,True
 GODREJPROP,2026-06-30,506.0,349.0,11.62,Mid Cap,False,False,False,False,2026-08-04,live_scrape,11.62,1.0,11.62,False
+GODREJPROP,2026-09-30,112.0,81.0,2.68,Mid Cap,False,False,False,False,2026-10-25,live_scrape,2.68,1.0,2.68,False
 GOKEX,2010-03-31,352.63,-14.75,,Micro Cap,False,False,False,False,2010-05-30,historical,,1.0,,False
 GOKEX,2010-06-30,,-17.56,-5.11,Micro Cap,False,False,False,False,2010-08-29,historical,-5.11,1.0,-5.11,False
 GOKEX,2010-09-30,,-26.93,,Micro Cap,False,False,False,False,2010-11-29,historical,,1.0,,False
@@ -13725,6 +13753,7 @@ GRWRHITECH,2025-09-30,569.6899999999999,91.23,39.27,Micro Cap,False,False,False,
 GRWRHITECH,2025-12-31,458.74,55.77,24.01,Micro Cap,False,False,False,False,2026-03-01,historical,24.01,1.0,24.01,False
 GRWRHITECH,2026-03-31,596.6899999999999,108.21,46.58,Micro Cap,True,True,True,True,2026-05-06,historical,46.58,1.0,46.58,True
 GRWRHITECH,2026-06-30,633.0,133.0,57.1,Micro Cap,True,True,True,True,2026-08-06,live_scrape,57.1,1.0,57.1,True
+GRWRHITECH,2026-09-30,634.0,140.0,60.2,Micro Cap,True,True,True,True,2026-10-25,live_scrape,60.2,1.0,60.2,True
 GSFC,2010-03-31,782.55,36.82,0.924,Micro Cap,False,False,False,False,2010-05-30,historical,4.62,5.0,0.924,False
 GSFC,2010-06-30,1066.76,108.6,2.726,Micro Cap,False,False,False,False,2010-08-29,historical,13.63,5.0,2.726,False
 GSFC,2010-09-30,1300.66,207.01,5.196,Micro Cap,False,False,False,False,2010-11-29,historical,25.98,5.0,5.196,False
@@ -13990,6 +14019,7 @@ HAVELLS,2025-09-30,4779.33,318.28000000000003,5.08,Mid Cap,False,False,False,Fal
 HAVELLS,2025-12-31,5587.89,300.05,4.79,Mid Cap,False,False,False,False,2026-03-01,historical,4.79,1.0,4.79,False
 HAVELLS,2026-03-31,6705.2,723.39,11.52,Mid Cap,True,True,True,True,2026-04-22,historical,11.52,1.0,11.52,True
 HAVELLS,2026-06-30,6518.0,290.0,4.63,Mid Cap,False,False,False,False,2026-07-17,live_scrape,4.63,1.0,4.63,False
+HAVELLS,2026-09-30,6417.0,353.0,5.62,Mid Cap,False,False,False,False,2026-10-25,live_scrape,5.62,1.0,5.62,False
 HBLENGINE,2010-03-31,299.83000000000004,21.09,1.07,Small Cap,False,False,False,False,2010-05-30,historical,1.07,1.0,1.07,False
 HBLENGINE,2010-06-30,241.55,7.090000000000001,0.28,Small Cap,False,False,False,False,2010-08-29,historical,0.28,1.0,0.28,False
 HBLENGINE,2010-09-30,258.13,2.6,0.1,Small Cap,False,False,False,False,2010-11-29,historical,0.1,1.0,0.1,False
@@ -14757,6 +14787,7 @@ HFCL,2025-09-30,1043.34,71.92,0.47,Small Cap,False,False,False,False,2025-11-29,
 HFCL,2025-12-31,1210.79,102.37,0.67,Small Cap,False,False,False,False,2026-03-01,historical,0.67,1.0,0.67,False
 HFCL,2026-03-31,1824.12,184.45,1.21,Small Cap,True,True,True,True,2026-04-30,historical,1.21,1.0,1.21,True
 HFCL,2026-06-30,1915.0,246.0,1.49,Small Cap,True,True,True,True,2026-07-22,live_scrape,1.49,1.0,1.49,True
+HFCL,2026-09-30,2178.0,268.0,1.75,Small Cap,True,True,True,True,2026-10-25,live_scrape,1.75,1.0,1.75,True
 HGINFRA,2017-03-31,377.46,24.34,4.49,Micro Cap,False,False,False,False,2017-05-30,historical,4.49,1.0,4.49,False
 HGINFRA,2017-06-30,331.0,19.37,3.58,Micro Cap,False,False,False,False,2017-08-29,historical,3.58,1.0,3.58,False
 HGINFRA,2017-09-30,236.34,9.96,1.84,Micro Cap,False,False,False,False,2017-11-29,historical,1.84,1.0,1.84,False
@@ -14993,6 +15024,7 @@ HINDPETRO,2025-09-30,100855.6,3859.3,18.14,Mid Cap,False,False,False,False,2025-
 HINDPETRO,2025-12-31,115153.2,4011.4,18.85,Mid Cap,True,False,False,False,2026-03-01,historical,18.85,1.0,18.85,False
 HINDPETRO,2026-03-31,114937.21,6065.26,28.5,Mid Cap,False,True,True,False,2026-05-13,historical,28.5,1.0,28.5,False
 HINDPETRO,2026-06-30,140584.0,-12265.0,-57.64,Mid Cap,True,False,False,False,2026-07-22,live_scrape,-57.64,1.0,-57.64,False
+HINDPETRO,2026-09-30,134434.0,3483.0,16.37,Mid Cap,False,False,False,False,2026-10-25,live_scrape,16.37,1.0,16.37,False
 HINDUNILVR,2010-03-31,4380.43,581.2,2.66,Large Cap,False,False,False,False,2010-05-30,historical,2.66,1.0,2.66,False
 HINDUNILVR,2010-06-30,4876.21,533.21,2.44,Large Cap,False,False,False,False,2010-08-29,historical,2.44,1.0,2.44,False
 HINDUNILVR,2010-09-30,4764.67,566.12,2.59,Large Cap,False,False,False,False,2010-11-29,historical,2.59,1.0,2.59,False
@@ -15125,6 +15157,7 @@ HINDZINC,2025-09-30,8549.0,2649.0,6.27,Large Cap,False,False,False,False,2025-11
 HINDZINC,2025-12-31,10980.0,3916.0,9.27,Large Cap,True,True,True,True,2026-03-01,historical,9.27,1.0,9.27,True
 HINDZINC,2026-03-31,13544.0,5033.0,11.91,Large Cap,True,True,True,True,2026-04-24,historical,11.91,1.0,11.91,True
 HINDZINC,2026-06-30,13747.0,5469.0,12.94,Large Cap,True,True,True,True,2026-07-24,live_scrape,12.94,1.0,12.94,True
+HINDZINC,2026-09-30,14961.0,6317.0,14.95,Large Cap,True,True,True,True,2026-10-25,live_scrape,14.95,1.0,14.95,True
 HOMEFIRST,2019-12-31,114.77,30.06,3.76,Small Cap,False,False,False,False,2020-02-29,historical,3.76,1.0,3.76,False
 HOMEFIRST,2020-03-31,100.61,12.47,1.56,Small Cap,False,False,False,False,2020-05-30,historical,1.56,1.0,1.56,False
 HOMEFIRST,2020-06-30,131.43,38.61,4.8,Small Cap,False,False,False,False,2020-08-29,historical,4.8,1.0,4.8,False
@@ -15761,6 +15794,7 @@ IDFCFIRSTB,2025-09-30,9936.93,347.8,0.35,Mid Cap,True,False,False,False,2025-11-
 IDFCFIRSTB,2025-12-31,10417.0,478.65,0.54,Mid Cap,True,False,False,False,2026-03-01,historical,0.54,1.0,0.54,False
 IDFCFIRSTB,2026-03-31,10552.74,330.64,0.38,Mid Cap,True,False,False,False,2026-04-25,historical,0.38,1.0,0.38,False
 IDFCFIRSTB,2026-06-30,11051.0,1148.0,1.33,Mid Cap,True,True,True,True,2026-07-25,live_scrape,1.33,1.0,1.33,True
+IDFCFIRSTB,2026-09-30,11922.0,1045.0,1.21,Mid Cap,True,False,False,False,2026-10-25,live_scrape,1.21,1.0,1.21,False
 IEX,2016-06-30,47.02,27.76,,Small Cap,False,False,False,False,2016-08-29,historical,,3.0,,False
 IEX,2016-09-30,50.79,30.15,3.0833333333333335,Small Cap,False,False,False,False,2016-11-29,historical,9.25,3.0,3.0833333333333335,False
 IEX,2016-12-31,49.85,28.62,2.9066666666666667,Small Cap,False,False,False,False,2017-03-01,historical,8.72,3.0,2.9066666666666667,False
@@ -15945,6 +15979,7 @@ IGIL,2025-09-30,303.74,129.79000000000002,2.91,Small Cap,False,False,False,False
 IGIL,2025-12-31,319.67,134.55,3.0,Small Cap,True,False,False,False,2026-03-01,historical,3.0,1.0,3.0,False
 IGIL,2026-03-31,368.56,179.6,4.02,Small Cap,True,True,True,True,2026-05-20,historical,4.02,1.0,4.02,True
 IGIL,2026-06-30,371.0,166.0,3.84,Small Cap,True,False,False,False,2026-07-23,live_scrape,3.84,1.0,3.84,False
+IGIL,2026-09-30,306.0,170.0,3.93,Small Cap,False,False,False,False,2026-10-25,live_scrape,3.93,1.0,3.93,False
 IGL,2010-03-31,289.76,51.49,0.368,Small Cap,False,False,False,False,2010-05-30,historical,3.68,10.0,0.368,False
 IGL,2010-06-30,335.78000000000003,57.14,0.40800000000000003,Small Cap,False,False,False,False,2010-08-29,historical,4.08,10.0,0.40800000000000003,False
 IGL,2010-09-30,446.79,66.28,0.47300000000000003,Small Cap,False,False,False,False,2010-11-29,historical,4.73,10.0,0.47300000000000003,False
@@ -16268,6 +16303,7 @@ INDHOTEL,2025-09-30,2040.89,318.26,2.0,Large Cap,False,False,False,False,2025-11
 INDHOTEL,2025-12-31,2841.96,954.24,6.35,Large Cap,True,True,True,True,2026-03-01,historical,6.35,1.0,6.35,True
 INDHOTEL,2026-03-31,2765.29,645.4300000000001,4.21,Large Cap,False,False,False,False,2026-05-11,historical,4.21,1.0,4.21,False
 INDHOTEL,2026-06-30,2339.0,391.0,2.51,Large Cap,False,False,False,False,2026-07-21,live_scrape,2.51,1.0,2.51,False
+INDHOTEL,2026-09-30,1336.0,393.0,2.76,Large Cap,False,False,False,False,2026-10-25,live_scrape,2.76,1.0,2.76,False
 INDIACEM,2010-03-31,974.3,38.32,1.01,Small Cap,False,False,False,False,2010-05-30,historical,1.01,1.0,1.01,False
 INDIACEM,2010-06-30,882.79,24.98,0.81,Small Cap,False,False,False,False,2010-08-29,historical,0.81,1.0,0.81,False
 INDIACEM,2010-09-30,842.8399999999999,-33.63,-1.09,Small Cap,False,False,False,False,2010-11-29,historical,-1.09,1.0,-1.09,False
@@ -16663,6 +16699,7 @@ INDUSINDBK,2025-09-30,11608.63,-436.88,-5.61,Mid Cap,False,False,False,False,202
 INDUSINDBK,2025-12-31,11372.88,127.94,1.59,Mid Cap,False,False,False,False,2026-03-01,historical,1.59,1.0,1.59,False
 INDUSINDBK,2026-03-31,11005.42,594.17,7.62,Mid Cap,False,False,False,False,2026-04-24,historical,7.62,1.0,7.62,False
 INDUSINDBK,2026-06-30,11310.0,1037.0,13.31,Mid Cap,False,False,False,False,2026-07-22,live_scrape,13.31,1.0,13.31,False
+INDUSINDBK,2026-09-30,11796.0,1176.0,15.09,Mid Cap,False,False,False,False,2026-10-25,live_scrape,15.09,1.0,15.09,False
 INDUSTOWER,2011-12-31,2424.3,194.4,1.11,Mid Cap,False,False,False,False,2012-02-29,historical,1.11,1.0,1.11,False
 INDUSTOWER,2012-03-31,2403.0,214.0,1225.0,Mid Cap,False,False,False,False,2012-05-30,historical,1225.0,1.0,1225.0,False
 INDUSTOWER,2012-06-30,2416.5,213.4,1.22,Mid Cap,False,False,False,False,2012-08-29,historical,1.22,1.0,1.22,False
@@ -16788,6 +16825,7 @@ INFY,2025-09-30,44490.0,7375.0,17.74,Large Cap,True,False,False,False,2025-11-29
 INFY,2025-12-31,45479.0,6666.0,16.14,Large Cap,True,False,False,False,2026-03-01,historical,16.14,1.0,16.14,False
 INFY,2026-03-31,46402.0,8509.0,20.98,Large Cap,True,True,True,True,2026-04-23,historical,20.98,1.0,20.98,True
 INFY,2026-06-30,48211.0,7775.0,19.15,Large Cap,True,False,False,False,2026-07-23,live_scrape,19.15,1.0,19.15,False
+INFY,2026-09-30,40719.0,7893.0,19.45,Large Cap,False,False,False,False,2026-10-25,live_scrape,19.45,1.0,19.45,False
 INOXGREEN,2020-09-30,43.95,-22.07,-1.9,Micro Cap,False,False,False,False,2020-11-29,historical,-1.9,1.0,-1.9,False
 INOXGREEN,2020-12-31,49.19,7.279999999999999,-0.4,Micro Cap,False,False,False,False,2021-03-01,historical,-0.4,1.0,-0.4,False
 INOXGREEN,2021-06-30,79.13,-14.7,-1.13,Micro Cap,False,False,False,False,2021-08-29,historical,-1.13,1.0,-1.13,False
@@ -17352,6 +17390,7 @@ IREDA,2025-09-30,2057.28,549.33,1.97,Mid Cap,True,True,True,True,2025-11-29,hist
 IREDA,2025-12-31,2130.43,585.1600000000001,2.09,Mid Cap,True,True,True,True,2026-03-01,historical,2.09,1.0,2.09,True
 IREDA,2026-03-31,2175.33,492.63,1.76,Mid Cap,True,False,False,False,2026-05-29,historical,1.76,1.0,1.76,False
 IREDA,2026-06-30,2249.0,339.0,1.21,Mid Cap,True,False,False,False,2026-08-03,live_scrape,1.21,1.0,1.21,False
+IREDA,2026-09-30,2344.0,554.0,1.97,Mid Cap,True,False,False,False,2026-10-25,live_scrape,1.97,1.0,1.97,False
 IRFC,2019-12-31,3640.730000000001,907.04,0.86,Large Cap,False,False,False,False,2020-02-29,historical,0.86,1.0,0.86,False
 IRFC,2020-03-31,3205.52,654.6600000000001,0.7,Large Cap,False,False,False,False,2020-05-30,historical,0.7,1.0,0.7,False
 IRFC,2020-06-30,3669.22,891.8100000000001,0.75,Large Cap,False,False,False,False,2020-08-29,historical,0.75,1.0,0.75,False
@@ -17605,6 +17644,7 @@ J&KBANK,2025-09-30,3293.0,494.92,4.49,Small Cap,True,False,False,False,2025-11-2
 J&KBANK,2025-12-31,3314.94,581.49,5.28,Small Cap,True,False,False,False,2026-03-01,historical,5.28,1.0,5.28,False
 J&KBANK,2026-03-31,3273.34,798.5600000000001,7.25,Small Cap,False,True,True,False,2026-05-05,historical,7.25,1.0,7.25,False
 J&KBANK,2026-06-30,3547.0,429.0,3.89,Small Cap,True,False,False,False,2026-07-29,live_scrape,3.89,1.0,3.89,False
+J&KBANK,2026-09-30,3727.0,546.0,4.96,Small Cap,True,False,False,False,2026-10-25,live_scrape,4.96,1.0,4.96,False
 JAIBALAJI,2010-03-31,522.12,15.24,0.502,Micro Cap,False,False,False,False,2010-05-30,historical,2.51,5.0,0.502,False
 JAIBALAJI,2010-06-30,414.4,10.4,0.32599999999999996,Micro Cap,False,False,False,False,2010-08-29,historical,1.63,5.0,0.32599999999999996,False
 JAIBALAJI,2010-09-30,495.36,11.63,0.364,Micro Cap,False,False,False,False,2010-11-29,historical,1.82,5.0,0.364,False
@@ -18012,6 +18052,7 @@ JINDALSTEL,2025-09-30,11746.85,635.08,6.28,Large Cap,False,False,False,False,202
 JINDALSTEL,2025-12-31,13090.04,188.58,1.88,Large Cap,False,False,False,False,2026-03-01,historical,1.88,1.0,1.88,False
 JINDALSTEL,2026-03-31,16275.52,1041.24,10.3,Large Cap,True,False,False,False,2026-05-01,historical,10.3,1.0,10.3,False
 JINDALSTEL,2026-06-30,15482.0,844.0,8.28,Large Cap,False,False,False,False,2026-07-24,live_scrape,8.28,1.0,8.28,False
+JINDALSTEL,2026-09-30,15270.0,861.0,8.44,Large Cap,False,False,False,False,2026-10-25,live_scrape,8.44,1.0,8.44,False
 JIOFIN,2022-09-30,1022.17,1000.1,1.57,Large Cap,False,False,False,False,2022-11-29,historical,1.57,1.0,1.57,False
 JIOFIN,2022-12-31,34.96,8.040000000000001,15.55,Large Cap,False,False,False,False,2023-03-01,historical,15.55,1.0,15.55,False
 JIOFIN,2023-03-31,17.75,23.03,44.55,Large Cap,False,False,False,False,2023-05-30,historical,44.55,1.0,44.55,False
@@ -18095,6 +18136,7 @@ JKCEMENT,2025-09-30,3019.2,159.25,20.78,Mid Cap,False,False,False,False,2025-11-
 JKCEMENT,2025-12-31,3463.07,173.61,22.6,Mid Cap,False,False,False,False,2026-03-01,historical,22.6,1.0,22.6,False
 JKCEMENT,2026-03-31,3887.5,330.88,43.08,Mid Cap,True,False,False,False,2026-05-23,historical,43.08,1.0,43.08,False
 JKCEMENT,2026-06-30,4032.0,275.0,35.91,Mid Cap,True,False,False,False,2026-07-18,live_scrape,35.91,1.0,35.91,False
+JKCEMENT,2026-09-30,3595.0,190.0,24.59,Mid Cap,False,False,False,False,2026-10-25,live_scrape,24.59,1.0,24.59,False
 JKLAKSHMI,2010-03-31,441.32,70.12,5.73,Micro Cap,False,False,False,False,2010-05-30,historical,5.73,1.0,5.73,False
 JKLAKSHMI,2010-06-30,323.65,16.81,1.37,Micro Cap,False,False,False,False,2010-08-29,historical,1.37,1.0,1.37,False
 JKLAKSHMI,2010-09-30,266.03000000000003,5.76,0.47,Micro Cap,False,False,False,False,2010-11-29,historical,0.47,1.0,0.47,False
@@ -18293,6 +18335,7 @@ JKTYRE,2025-09-30,4011.31,226.86,7.96,Small Cap,True,False,False,False,2025-11-2
 JKTYRE,2025-12-31,4222.96,207.73,7.29,Small Cap,True,False,False,False,2026-03-01,historical,7.29,1.0,7.29,False
 JKTYRE,2026-03-31,4223.4400000000005,177.95999999999998,6.25,Small Cap,True,False,False,False,2026-05-26,historical,6.25,1.0,6.25,False
 JKTYRE,2026-06-30,3946.0,44.0,1.53,Small Cap,False,False,False,False,2026-08-07,live_scrape,1.53,1.0,1.53,False
+JKTYRE,2026-09-30,4452.0,61.0,2.1,Small Cap,True,False,False,False,2026-10-25,live_scrape,2.1,1.0,2.1,False
 JLHL,2022-06-30,200.56,30.45,1.198,Micro Cap,False,False,False,False,2022-08-29,historical,5.99,5.0,1.198,False
 JLHL,2022-09-30,221.29,27.08,1.064,Micro Cap,False,False,False,False,2022-11-29,historical,5.32,5.0,1.064,False
 JLHL,2022-12-31,228.39,-0.39,-0.24,Micro Cap,False,False,False,False,2023-03-01,historical,-1.2,5.0,-0.24,False
@@ -18310,6 +18353,7 @@ JLHL,2025-09-30,393.63,57.470000000000006,1.75,Micro Cap,True,True,True,True,202
 JLHL,2025-12-31,365.37,42.49,1.298,Micro Cap,False,False,False,False,2026-03-01,historical,6.49,5.0,1.298,False
 JLHL,2026-03-31,387.84,50.27,1.532,Micro Cap,False,False,False,False,2026-05-15,historical,7.66,5.0,1.532,False
 JLHL,2026-06-30,411.0,38.0,0.22799999999999998,Micro Cap,True,False,False,False,2026-07-31,live_scrape,1.14,5.0,0.22799999999999998,False
+JLHL,2026-09-30,365.0,51.0,1.57,Micro Cap,False,False,False,False,2026-10-25,live_scrape,1.57,1.0,1.57,False
 JMFINANCIL,2010-03-31,133.1,30.4,0.36,Small Cap,False,False,False,False,2010-05-30,historical,0.36,1.0,0.36,False
 JMFINANCIL,2010-06-30,165.94,30.56,0.39,Small Cap,False,False,False,False,2010-08-29,historical,0.39,1.0,0.39,False
 JMFINANCIL,2010-09-30,179.61,58.28,0.77,Small Cap,False,False,False,False,2010-11-29,historical,0.77,1.0,0.77,False
@@ -18442,6 +18486,7 @@ JPPOWER,2025-09-30,1438.3,182.1,0.2,Small Cap,False,False,False,False,2025-11-29
 JPPOWER,2025-12-31,1155.5700000000002,3.770000000000001,0.0,Small Cap,False,False,False,False,2026-03-01,historical,0.0,1.0,0.0,False
 JPPOWER,2026-03-31,1386.4299999999998,-13.37,-0.02,Small Cap,False,False,False,False,2026-05-04,historical,-0.02,1.0,-0.02,False
 JPPOWER,2026-06-30,1776.0,469.0,0.68,Small Cap,True,True,True,True,2026-07-20,live_scrape,0.68,1.0,0.68,True
+JPPOWER,2026-09-30,1512.0,33.0,0.05,Small Cap,False,False,False,False,2026-10-25,live_scrape,0.05,1.0,0.05,False
 JSFB,2020-06-30,603.98,40.09,,Micro Cap,False,False,False,False,2020-08-29,historical,,1.0,,False
 JSFB,2020-09-30,652.53,42.35,7.92,Micro Cap,False,False,False,False,2020-11-29,historical,7.92,1.0,7.92,False
 JSFB,2020-12-31,654.45,44.5,8.31,Micro Cap,False,False,False,False,2021-03-01,historical,8.31,1.0,8.31,False
@@ -18467,6 +18512,7 @@ JSFB,2025-09-30,1304.79,74.99,7.09,Micro Cap,True,False,False,False,2025-11-29,h
 JSFB,2025-12-31,1373.53,9.69,0.92,Micro Cap,True,False,False,False,2026-03-01,historical,0.92,1.0,0.92,False
 JSFB,2026-03-31,1444.58,139.82,13.23,Micro Cap,True,True,True,True,2026-04-29,historical,13.23,1.0,13.23,True
 JSFB,2026-06-30,1515.0,155.0,14.74,Micro Cap,True,True,True,True,2026-07-15,live_scrape,14.74,1.0,14.74,True
+JSFB,2026-09-30,1587.0,170.0,16.1,Micro Cap,True,True,True,True,2026-10-25,live_scrape,16.1,1.0,16.1,True
 JSL,2010-03-31,1688.85,117.72,7.26,Mid Cap,False,False,False,False,2010-05-30,historical,7.26,1.0,7.26,False
 JSL,2010-06-30,1627.45,98.06,5.25,Mid Cap,False,False,False,False,2010-08-29,historical,5.25,1.0,5.25,False
 JSL,2010-09-30,1739.41,64.66,3.21,Mid Cap,False,False,False,False,2010-11-29,historical,3.21,1.0,3.21,False
@@ -18533,6 +18579,7 @@ JSL,2025-09-30,10892.78,807.92,9.78,Mid Cap,True,True,True,True,2025-11-29,histo
 JSL,2025-12-31,10517.55,827.78,10.05,Mid Cap,False,True,True,False,2026-03-01,historical,10.05,1.0,10.05,False
 JSL,2026-03-31,11337.19,834.21,10.22,Mid Cap,True,True,True,True,2026-05-04,historical,10.22,1.0,10.22,True
 JSL,2026-06-30,11279.0,769.0,9.33,Mid Cap,False,False,False,False,2026-08-03,live_scrape,9.33,1.0,9.33,False
+JSL,2026-09-30,11413.0,786.0,9.53,Mid Cap,True,False,False,False,2026-10-25,live_scrape,9.53,1.0,9.53,False
 JSLL,2024-06-30,100.04,14.79,,Micro Cap,False,False,False,False,2024-08-29,historical,,1.0,,False
 JSLL,2024-09-30,114.09,26.6,2.14,Micro Cap,False,False,False,False,2024-11-29,historical,2.14,1.0,2.14,False
 JSLL,2024-12-31,115.69,13.21,1.06,Micro Cap,False,False,False,False,2025-03-01,historical,1.06,1.0,1.06,False
@@ -18768,6 +18815,7 @@ JSWSTEEL,2025-09-30,45152.0,1646.0,6.64,Large Cap,False,False,False,False,2025-1
 JSWSTEEL,2025-12-31,45991.0,2410.0,8.75,Large Cap,False,False,False,False,2026-03-01,historical,8.75,1.0,8.75,False
 JSWSTEEL,2026-03-31,51180.0,19243.0,66.94,Large Cap,True,True,True,True,2026-05-14,historical,66.94,1.0,66.94,True
 JSWSTEEL,2026-06-30,47364.0,4696.0,19.02,Large Cap,False,False,False,False,2026-07-17,live_scrape,19.02,1.0,19.02,False
+JSWSTEEL,2026-09-30,42008.0,3396.0,13.89,Large Cap,False,False,False,False,2026-10-25,live_scrape,13.89,1.0,13.89,False
 JUBLFOOD,2010-03-31,124.06,10.4,0.16999999999999998,Mid Cap,False,False,False,False,2010-05-30,historical,1.7,10.0,0.16999999999999998,False
 JUBLFOOD,2010-06-30,135.55,15.28,0.23399999999999999,Mid Cap,False,False,False,False,2010-08-29,historical,2.34,10.0,0.23399999999999999,False
 JUBLFOOD,2010-09-30,163.38,18.44,0.281,Mid Cap,False,False,False,False,2010-11-29,historical,2.81,10.0,0.281,False
@@ -18982,6 +19030,7 @@ JUSTDIAL,2025-09-30,303.07,119.44,14.04,Micro Cap,True,False,False,False,2025-11
 JUSTDIAL,2025-12-31,305.69,117.93,16.35,Micro Cap,True,False,False,False,2026-03-01,historical,16.35,1.0,16.35,False
 JUSTDIAL,2026-03-31,307.24,100.0,11.76,Micro Cap,True,False,False,False,2026-04-13,historical,11.76,1.0,11.76,False
 JUSTDIAL,2026-06-30,327.0,166.0,19.54,Micro Cap,True,True,True,True,2026-07-10,live_scrape,19.54,1.0,19.54,True
+JUSTDIAL,2026-09-30,343.0,108.0,12.68,Micro Cap,True,False,False,False,2026-10-25,live_scrape,12.68,1.0,12.68,False
 JWL,2010-12-31,41.260000000000005,1.23,0.27,Small Cap,False,False,False,False,2011-03-01,historical,0.27,1.0,0.27,False
 JWL,2011-03-31,63.63,1.85,0.38,Small Cap,False,False,False,False,2011-05-30,historical,0.38,1.0,0.38,False
 JWL,2011-06-30,82.24,6.93,1.26,Small Cap,False,False,False,False,2011-08-29,historical,1.26,1.0,1.26,False
@@ -19192,6 +19241,7 @@ KAJARIACER,2025-09-30,1186.01,134.55,8.33,Small Cap,False,True,True,False,2025-1
 KAJARIACER,2025-12-31,1168.26,86.44,5.5,Small Cap,False,False,False,False,2026-03-01,historical,5.5,1.0,5.5,False
 KAJARIACER,2026-03-31,1373.35,156.51,9.77,Small Cap,True,True,True,True,2026-04-30,historical,9.77,1.0,9.77,True
 KAJARIACER,2026-06-30,1328.0,171.0,10.64,Small Cap,False,True,True,False,2026-07-31,live_scrape,10.64,1.0,10.64,False
+KAJARIACER,2026-09-30,1332.0,166.0,10.58,Small Cap,False,False,False,False,2026-10-25,live_scrape,10.58,1.0,10.58,False
 KALYANKJIL,2020-03-31,2140.7200000000003,47.95,0.5,Mid Cap,False,False,False,False,2020-05-30,historical,0.5,1.0,0.5,False
 KALYANKJIL,2020-06-30,782.4,-85.88,-1.01,Mid Cap,False,False,False,False,2020-08-29,historical,-1.01,1.0,-1.01,False
 KALYANKJIL,2020-09-30,1798.05,-136.13,-1.62,Mid Cap,False,False,False,False,2020-11-29,historical,-1.62,1.0,-1.62,False
@@ -19502,6 +19552,7 @@ KEI,2025-09-30,2726.35,203.51,21.28,Mid Cap,False,False,False,False,2025-11-29,h
 KEI,2025-12-31,2954.7,234.86,24.55,Mid Cap,True,True,True,True,2026-03-01,historical,24.55,1.0,24.55,True
 KEI,2026-03-31,3476.4,284.31,29.72,Mid Cap,True,True,True,True,2026-05-04,historical,29.72,1.0,29.72,True
 KEI,2026-06-30,3185.0,274.0,28.68,Mid Cap,False,False,False,False,2026-08-03,live_scrape,28.68,1.0,28.68,False
+KEI,2026-09-30,3776.0,262.0,27.45,Mid Cap,True,False,False,False,2026-10-25,live_scrape,27.45,1.0,27.45,False
 KFINTECH,2020-06-30,100.22,-0.77,,Small Cap,False,False,False,False,2020-08-29,historical,,1.0,,False
 KFINTECH,2020-09-30,114.35,2.9,0.19,Small Cap,False,False,False,False,2020-11-29,historical,0.19,1.0,0.19,False
 KFINTECH,2021-06-30,132.63,11.69,0.77,Small Cap,False,False,False,False,2021-08-29,historical,0.77,1.0,0.77,False
@@ -19946,6 +19997,7 @@ KOTAKBANK,2025-09-30,17198.739999999998,4468.27,0.898,Large Cap,False,False,Fals
 KOTAKBANK,2025-12-31,17506.8,4924.29,0.99,Large Cap,True,False,False,False,2026-03-01,historical,4.95,5.0,0.99,False
 KOTAKBANK,2026-03-31,17827.36,5423.15,5.45,Large Cap,True,False,False,False,2026-05-02,historical,5.45,1.0,5.45,False
 KOTAKBANK,2026-06-30,18355.0,5480.0,5.51,Large Cap,True,True,False,True,2026-07-18,live_scrape,5.51,1.0,5.51,True
+KOTAKBANK,2026-09-30,15948.0,4212.0,4.23,Large Cap,False,False,False,False,2026-10-25,live_scrape,4.23,1.0,4.23,False
 KPIGREEN,2020-06-30,17.29,-1.45,-0.08888888888888889,Micro Cap,False,False,False,False,2020-08-29,historical,-0.8,9.0,-0.08888888888888889,False
 KPIGREEN,2020-09-30,24.35,1.38,0.08444444444444445,Micro Cap,False,False,False,False,2020-11-29,historical,0.76,9.0,0.08444444444444445,False
 KPIGREEN,2020-12-31,13.82,-2.82,-0.17333333333333334,Micro Cap,False,False,False,False,2021-03-01,historical,-1.56,9.0,-0.17333333333333334,False
@@ -21237,6 +21289,7 @@ LTTS,2025-09-30,2979.5,329.2,30.97,Mid Cap,True,False,False,False,2025-11-29,his
 LTTS,2025-12-31,2787.2,292.3,28.52,Mid Cap,False,False,False,False,2026-03-01,historical,28.52,1.0,28.52,False
 LTTS,2026-03-31,2857.9,320.0,31.29,Mid Cap,False,False,False,False,2026-04-22,historical,31.29,1.0,31.29,False
 LTTS,2026-06-30,2940.0,357.0,33.62,Mid Cap,False,True,True,False,2026-07-14,live_scrape,33.62,1.0,33.62,False
+LTTS,2026-09-30,2587.0,515.0,48.55,Mid Cap,False,True,True,False,2026-10-25,live_scrape,48.55,1.0,48.55,False
 LUMAXTECH,2010-03-31,125.02,4.86,,Micro Cap,False,False,False,False,2010-05-30,historical,,5.0,,False
 LUMAXTECH,2010-06-30,136.78,8.27,1.4220000000000002,Micro Cap,False,False,False,False,2010-08-29,historical,7.11,5.0,1.4220000000000002,False
 LUMAXTECH,2010-09-30,163.8,11.02,1.714,Micro Cap,False,False,False,False,2010-11-29,historical,8.57,5.0,1.714,False
@@ -21303,6 +21356,7 @@ LUMAXTECH,2025-09-30,1156.36,77.55,9.81,Micro Cap,True,False,True,False,2025-11-
 LUMAXTECH,2025-12-31,1270.66,108.06,12.1,Micro Cap,True,True,True,True,2026-03-01,historical,12.1,1.0,12.1,True
 LUMAXTECH,2026-03-31,1416.9299999999998,97.54,12.93,Micro Cap,True,False,True,False,2026-05-29,historical,12.93,1.0,12.93,False
 LUMAXTECH,2026-06-30,1364.0,99.0,12.71,Micro Cap,False,False,False,False,2026-08-10,live_scrape,12.71,1.0,12.71,False
+LUMAXTECH,2026-09-30,1205.0,89.0,13.06,Micro Cap,False,False,True,False,2026-10-25,live_scrape,13.06,1.0,13.06,False
 LUPIN,2010-03-31,1328.17,225.09,1.016,Mid Cap,False,False,False,False,2010-05-30,historical,5.08,5.0,1.016,False
 LUPIN,2010-06-30,1334.28,202.04,0.8779999999999999,Mid Cap,False,False,False,False,2010-08-29,historical,4.39,5.0,0.8779999999999999,False
 LUPIN,2010-09-30,1433.96,220.69,4.8,Mid Cap,False,False,False,False,2010-11-29,historical,4.8,1.0,4.8,False
@@ -21527,6 +21581,7 @@ M&MFIN,2025-09-30,5026.1900000000005,566.0699999999999,4.06,Mid Cap,True,False,F
 M&MFIN,2025-12-31,5449.84,825.6,5.93,Mid Cap,True,False,False,False,2026-03-01,historical,5.93,1.0,5.93,False
 M&MFIN,2026-03-31,5538.7300000000005,940.48,6.75,Mid Cap,True,True,False,False,2026-04-24,historical,6.75,1.0,6.75,False
 M&MFIN,2026-06-30,5718.0,927.0,6.66,Mid Cap,True,False,False,False,2026-07-21,live_scrape,6.66,1.0,6.66,False
+M&MFIN,2026-09-30,5164.0,882.0,6.34,Mid Cap,False,False,False,False,2026-10-25,live_scrape,6.34,1.0,6.34,False
 MAHABANK,2010-03-31,1246.49,139.06,3.23,Mid Cap,False,False,False,False,2010-05-30,historical,3.23,1.0,3.23,False
 MAHABANK,2010-06-30,1280.21,118.43,2.75,Mid Cap,False,False,False,False,2010-08-29,historical,2.75,1.0,2.75,False
 MAHABANK,2010-09-30,1307.96,52.3,1.21,Mid Cap,False,False,False,False,2010-11-29,historical,1.21,1.0,1.21,False
@@ -21659,6 +21714,7 @@ MAHSCOOTER,2025-09-30,271.02,267.07,233.7,Micro Cap,True,True,True,True,2025-11-
 MAHSCOOTER,2025-12-31,6.44,4.12,3.6,Micro Cap,False,False,False,False,2026-03-01,historical,3.6,1.0,3.6,False
 MAHSCOOTER,2026-03-31,6.029999999999999,4.01,3.5,Micro Cap,False,False,False,False,2026-04-22,historical,3.5,1.0,3.5,False
 MAHSCOOTER,2026-06-30,5.41,3.32,2.9,Micro Cap,False,False,False,False,2026-07-29,live_scrape,2.9,1.0,2.9,False
+MAHSCOOTER,2026-09-30,297.0,293.0,256.61,Micro Cap,True,True,True,True,2026-10-25,live_scrape,256.61,1.0,256.61,True
 MAHSEAMLES,2010-03-31,406.65,75.07000000000001,5.32,Micro Cap,False,False,False,False,2010-05-30,historical,10.64,2.0,5.32,False
 MAHSEAMLES,2010-06-30,403.13,100.46,7.12,Micro Cap,False,False,False,False,2010-08-29,historical,14.24,2.0,7.12,False
 MAHSEAMLES,2010-09-30,423.21,80.08,5.675,Micro Cap,False,False,False,False,2010-11-29,historical,11.35,2.0,5.675,False
@@ -22144,6 +22200,7 @@ MASTEK,2025-09-30,940.37,97.45,31.24,Micro Cap,True,False,False,False,2025-11-29
 MASTEK,2025-12-31,910.37,108.35,34.71,Micro Cap,False,True,True,False,2026-03-01,historical,34.71,1.0,34.71,False
 MASTEK,2026-03-31,946.35,106.15,34.01,Micro Cap,True,False,False,False,2026-04-17,historical,34.01,1.0,34.01,False
 MASTEK,2026-06-30,985.0,106.0,34.15,Micro Cap,True,False,False,False,2026-07-21,live_scrape,34.15,1.0,34.15,False
+MASTEK,2026-09-30,238.0,62.0,20.07,Micro Cap,False,False,False,False,2026-10-25,live_scrape,20.07,1.0,20.07,False
 MAXHEALTH,2019-09-30,280.55,-1.36,-0.03,Large Cap,False,False,False,False,2019-11-29,historical,-0.03,1.0,-0.03,False
 MAXHEALTH,2019-12-31,267.1,-1.8,-0.03,Large Cap,False,False,False,False,2020-02-29,historical,-0.03,1.0,-0.03,False
 MAXHEALTH,2020-03-31,247.86,53.15,0.91,Large Cap,False,False,False,False,2020-05-30,historical,0.91,1.0,0.91,False
@@ -23207,6 +23264,7 @@ NAM-INDIA,2025-09-30,658.12,344.64,5.32,Mid Cap,True,False,False,False,2025-11-2
 NAM-INDIA,2025-12-31,705.28,403.9,6.22,Mid Cap,True,True,True,True,2026-03-01,historical,6.22,1.0,6.22,True
 NAM-INDIA,2026-03-31,738.73,384.72,5.93,Mid Cap,True,False,False,False,2026-04-27,historical,5.93,1.0,5.93,False
 NAM-INDIA,2026-06-30,767.0,504.0,7.88,Mid Cap,True,True,True,True,2026-08-11,live_scrape,7.88,1.0,7.88,True
+NAM-INDIA,2026-09-30,747.0,317.0,4.95,Mid Cap,False,False,False,False,2026-10-25,live_scrape,4.95,1.0,4.95,False
 NATCOPHARM,2010-03-31,127.38,15.03,5.33,Small Cap,False,False,False,False,2010-05-30,historical,5.33,1.0,5.33,False
 NATCOPHARM,2010-06-30,122.05,10.4,3.76,Small Cap,False,False,False,False,2010-08-29,historical,3.76,1.0,3.76,False
 NATCOPHARM,2010-09-30,127.37,14.66,5.26,Small Cap,False,False,False,False,2010-11-29,historical,5.26,1.0,5.26,False
@@ -23788,6 +23846,7 @@ NESCO,2025-09-30,239.18,118.91,16.88,Micro Cap,True,True,True,True,2025-11-29,hi
 NESCO,2025-12-31,247.92,104.64,14.85,Micro Cap,True,False,False,False,2026-03-01,historical,14.85,1.0,14.85,False
 NESCO,2026-03-31,251.62,93.05,13.21,Micro Cap,True,False,False,False,2026-05-25,historical,13.21,1.0,13.21,False
 NESCO,2026-06-30,212.0,100.0,14.19,Micro Cap,False,False,False,False,2026-07-27,live_scrape,14.19,1.0,14.19,False
+NESCO,2026-09-30,228.0,105.0,14.93,Micro Cap,False,False,False,False,2026-10-25,live_scrape,14.93,1.0,14.93,False
 NESTLEIND,2010-03-31,1485.42,201.86,1.0470000000000002,Large Cap,False,False,False,False,2010-05-30,historical,20.94,20.0,1.0470000000000002,False
 NESTLEIND,2010-06-30,1471.3,194.83,1.0105,Large Cap,False,False,False,False,2010-08-29,historical,20.21,20.0,1.0105,False
 NESTLEIND,2010-09-30,1641.4,218.56,1.1335000000000002,Large Cap,False,False,False,False,2010-11-29,historical,22.67,20.0,1.1335000000000002,False
@@ -23872,6 +23931,7 @@ NETWEB,2025-09-30,303.72,31.43,5.55,Small Cap,False,False,False,False,2025-11-29
 NETWEB,2025-12-31,804.9300000000001,73.31,12.94,Small Cap,True,True,True,True,2026-03-01,historical,12.94,1.0,12.94,True
 NETWEB,2026-03-31,773.7,70.59,12.43,Small Cap,False,False,False,False,2026-05-02,historical,12.43,1.0,12.43,False
 NETWEB,2026-06-30,820.0,85.0,14.98,Small Cap,True,True,True,True,2026-07-28,live_scrape,14.98,1.0,14.98,True
+NETWEB,2026-09-30,1323.0,137.0,22.99,Small Cap,True,True,True,True,2026-10-25,live_scrape,22.99,1.0,22.99,True
 NETWORK18,2010-03-31,395.75,7.19,,Micro Cap,False,False,False,False,2010-05-30,historical,,1.0,,False
 NETWORK18,2010-06-30,317.9,-55.23,-3.06,Micro Cap,False,False,False,False,2010-08-29,historical,-3.06,1.0,-3.06,False
 NETWORK18,2010-09-30,354.8,-55.5,-3.1,Micro Cap,False,False,False,False,2010-11-29,historical,-3.1,1.0,-3.1,False
@@ -24041,6 +24101,7 @@ NEWGEN,2025-09-30,400.79,81.74,5.69,Small Cap,False,False,False,False,2025-11-29
 NEWGEN,2025-12-31,400.28,62.82000000000001,4.37,Small Cap,False,False,False,False,2026-03-01,historical,4.37,1.0,4.37,False
 NEWGEN,2026-03-31,452.67,106.3,7.51,Small Cap,True,False,False,False,2026-04-30,historical,7.51,1.0,7.51,False
 NEWGEN,2026-06-30,357.0,63.0,4.41,Small Cap,False,False,False,False,2026-07-16,live_scrape,4.41,1.0,4.41,False
+NEWGEN,2026-09-30,370.0,80.0,5.58,Small Cap,False,False,False,False,2026-10-25,live_scrape,5.58,1.0,5.58,False
 NFL,2010-03-31,1339.72,53.27,,Micro Cap,False,False,False,False,2010-05-30,historical,,1.0,,False
 NFL,2010-06-30,1166.16,17.78,0.36,Micro Cap,False,False,False,False,2010-08-29,historical,0.36,1.0,0.36,False
 NFL,2010-09-30,1563.1,43.1,0.88,Micro Cap,False,False,False,False,2010-11-29,historical,0.88,1.0,0.88,False
@@ -24537,6 +24598,7 @@ NUVOCO,2025-09-30,2457.57,36.43,1.02,Small Cap,False,False,False,False,2025-11-2
 NUVOCO,2025-12-31,2701.27,49.37,1.38,Small Cap,False,False,False,False,2026-03-01,historical,1.38,1.0,1.38,False
 NUVOCO,2026-03-31,3306.75,140.81,3.94,Small Cap,True,False,False,False,2026-04-14,historical,3.94,1.0,3.94,False
 NUVOCO,2026-06-30,3129.0,160.0,4.47,Small Cap,False,False,False,False,2026-07-13,live_scrape,4.47,1.0,4.47,False
+NUVOCO,2026-09-30,2525.0,55.0,1.54,Small Cap,False,False,False,False,2026-10-25,live_scrape,1.54,1.0,1.54,False
 NYKAA,2020-09-30,603.77,26.99,0.09999999999999999,Mid Cap,False,False,False,False,2020-11-29,historical,0.6,6.0,0.09999999999999999,False
 NYKAA,2020-12-31,807.97,68.88,0.25,Mid Cap,False,False,False,False,2021-03-01,historical,1.5,6.0,0.25,False
 NYKAA,2021-03-31,740.52,17.91,0.06,Mid Cap,False,False,False,False,2021-05-30,historical,0.36,6.0,0.06,False
@@ -24694,6 +24756,7 @@ OFSS,2025-09-30,1788.8,546.1,62.53,Mid Cap,False,False,False,False,2025-11-29,hi
 OFSS,2025-12-31,1965.9,609.6,69.79,Mid Cap,True,False,False,False,2026-03-01,historical,69.79,1.0,69.79,False
 OFSS,2026-03-31,2065.2,841.7,96.36,Mid Cap,True,True,True,True,2026-04-22,historical,96.36,1.0,96.36,True
 OFSS,2026-06-30,3125.0,1416.0,162.57,Mid Cap,True,True,True,True,2026-07-22,live_scrape,162.57,1.0,162.57,True
+OFSS,2026-09-30,1426.0,628.0,72.04,Mid Cap,False,False,False,False,2026-10-25,live_scrape,72.04,1.0,72.04,False
 OIL,2010-03-31,1319.8200000000002,430.99,11.946666666666667,Mid Cap,False,False,False,False,2010-05-30,historical,17.92,1.5,11.946666666666667,False
 OIL,2010-06-30,1095.54,501.11,13.893333333333333,Mid Cap,False,False,False,False,2010-08-29,historical,20.84,1.5,13.893333333333333,False
 OIL,2010-09-30,1788.03,916.03,25.400000000000002,Mid Cap,False,False,False,False,2010-11-29,historical,38.1,1.5,25.400000000000002,False
@@ -25042,6 +25105,7 @@ ORIENTCEM,2025-09-30,643.3199999999999,49.09,2.39,Micro Cap,False,False,False,Fa
 ORIENTCEM,2025-12-31,636.1,27.8,1.35,Micro Cap,False,False,False,False,2026-03-01,historical,1.35,1.0,1.35,False
 ORIENTCEM,2026-03-31,647.23,55.42999999999999,2.7,Micro Cap,False,False,False,False,2026-04-28,historical,2.7,1.0,2.7,False
 ORIENTCEM,2026-06-30,604.0,77.0,3.75,Micro Cap,False,True,True,False,2026-07-23,live_scrape,3.75,1.0,3.75,False
+ORIENTCEM,2026-09-30,565.0,32.0,1.56,Micro Cap,False,False,False,False,2026-10-25,live_scrape,1.56,1.0,1.56,False
 ORKLAINDIA,2024-06-30,563.5,71.39,,Micro Cap,False,False,False,False,2024-08-29,historical,,1.0,,False
 ORKLAINDIA,2024-09-30,619.76,82.69,6.0,Micro Cap,False,False,False,False,2024-11-29,historical,6.0,1.0,6.0,False
 ORKLAINDIA,2024-12-31,615.27,65.85,4.8,Micro Cap,False,False,False,False,2025-03-01,historical,4.8,1.0,4.8,False
@@ -25391,6 +25455,7 @@ PCJEWELLER,2025-09-30,825.25,209.54,0.21,Micro Cap,True,True,False,False,2025-11
 PCJEWELLER,2025-12-31,875.3799999999999,190.1,0.19,Micro Cap,True,False,False,False,2026-03-01,historical,0.19,1.0,0.19,False
 PCJEWELLER,2026-03-31,927.34,152.89,0.16,Micro Cap,True,False,False,False,2026-05-27,historical,0.16,1.0,0.16,False
 PCJEWELLER,2026-06-30,877.0,222.0,0.23,Micro Cap,False,True,True,False,2026-08-10,live_scrape,0.23,1.0,0.23,False
+PCJEWELLER,2026-09-30,910.0,240.0,0.24,Micro Cap,False,True,True,False,2026-10-25,live_scrape,0.24,1.0,0.24,False
 PERSISTENT,2010-03-31,171.74,39.68,5.52,Mid Cap,False,False,False,False,2010-05-30,historical,11.04,2.0,5.52,False
 PERSISTENT,2010-06-30,181.09,34.53,4.315,Mid Cap,False,False,False,False,2010-08-29,historical,8.63,2.0,4.315,False
 PERSISTENT,2010-09-30,187.0,35.83,4.54,Mid Cap,False,False,False,False,2010-11-29,historical,9.08,2.0,4.54,False
@@ -26186,6 +26251,7 @@ PIRAMALFIN,2025-09-30,2871.55,326.99,14.26,Small Cap,False,True,False,False,2025
 PIRAMALFIN,2025-12-31,2917.68,401.01,17.5,Small Cap,True,True,False,False,2026-03-01,historical,17.5,1.0,17.5,False
 PIRAMALFIN,2026-03-31,3424.01,501.77,22.01,Small Cap,True,True,True,True,2026-04-27,historical,22.01,1.0,22.01,True
 PIRAMALFIN,2026-06-30,3368.0,461.0,20.34,Small Cap,False,False,False,False,2026-07-16,live_scrape,20.34,1.0,20.34,False
+PIRAMALFIN,2026-09-30,3625.0,529.0,22.36,Small Cap,True,True,True,True,2026-10-25,live_scrape,22.36,1.0,22.36,True
 PNB,2010-03-31,5584.7300000000005,1135.03,7.2,Large Cap,False,False,False,False,2010-05-30,historical,36.0,5.0,7.2,False
 PNB,2010-06-30,5971.64,1068.29,6.776000000000001,Large Cap,False,False,False,False,2010-08-29,historical,33.88,5.0,6.776000000000001,False
 PNB,2010-09-30,6455.4400000000005,1074.54,6.816,Large Cap,False,False,False,False,2010-11-29,historical,34.08,5.0,6.816,False
@@ -27643,6 +27709,7 @@ RALLIS,2025-09-30,861.0,102.0,5.23,Micro Cap,False,True,True,False,2025-11-29,hi
 RALLIS,2025-12-31,623.0,2.0,0.1,Micro Cap,False,False,False,False,2026-03-01,historical,0.1,1.0,0.1,False
 RALLIS,2026-03-31,456.0,-15.0,-0.79,Micro Cap,False,False,False,False,2026-04-27,historical,-0.79,1.0,-0.79,False
 RALLIS,2026-06-30,1022.0,125.0,6.43,Micro Cap,True,True,True,True,2026-07-20,live_scrape,6.43,1.0,6.43,True
+RALLIS,2026-09-30,858.0,85.0,4.37,Micro Cap,False,False,False,False,2026-10-25,live_scrape,4.37,1.0,4.37,False
 RAMCOCEM,2010-03-31,670.5600000000001,29.37,,Small Cap,False,False,False,False,2010-05-30,historical,,1.0,,False
 RAMCOCEM,2010-06-30,700.4100000000001,72.6,3.0,Small Cap,False,False,False,False,2010-08-29,historical,3.0,1.0,3.0,False
 RAMCOCEM,2010-09-30,650.01,31.12,1.0,Small Cap,False,False,False,False,2010-11-29,historical,1.0,1.0,1.0,False
@@ -28958,6 +29025,7 @@ SAGILITY,2025-09-30,1658.5,250.83,0.53,Small Cap,True,True,True,True,2025-11-29,
 SAGILITY,2025-12-31,1971.15,267.66,0.57,Small Cap,True,True,True,True,2026-03-01,historical,0.57,1.0,0.57,True
 SAGILITY,2026-03-31,2024.26,257.73,0.56,Small Cap,True,False,False,False,2026-05-12,historical,0.56,1.0,0.56,False
 SAGILITY,2026-06-30,1963.0,217.0,0.46,Small Cap,False,False,False,False,2026-07-21,live_scrape,0.46,1.0,0.46,False
+SAGILITY,2026-09-30,575.0,98.0,0.21,Small Cap,False,False,False,False,2026-10-25,live_scrape,0.21,1.0,0.21,False
 SAIL,2010-03-31,12229.76,2084.9,5.05,Mid Cap,False,False,False,False,2010-05-30,historical,5.05,1.0,5.05,False
 SAIL,2010-06-30,9133.32,1176.65,2.85,Mid Cap,False,False,False,False,2010-08-29,historical,2.85,1.0,2.85,False
 SAIL,2010-09-30,10747.44,1090.01,2.64,Mid Cap,False,False,False,False,2010-11-29,historical,2.64,1.0,2.64,False
@@ -29236,6 +29304,7 @@ SAPPHIRE,2025-09-30,742.4399999999999,-12.79,-0.4,Small Cap,False,False,False,Fa
 SAPPHIRE,2025-12-31,813.83,-4.8100000000000005,-0.15,Small Cap,True,False,False,False,2026-03-01,historical,-0.15,1.0,-0.15,False
 SAPPHIRE,2026-03-31,792.22,-12.63,-0.39,Small Cap,False,False,False,False,2026-04-28,historical,-0.39,1.0,-0.39,False
 SAPPHIRE,2026-06-30,891.0,14.0,0.44,Small Cap,True,True,True,True,2026-07-24,live_scrape,0.44,1.0,0.44,True
+SAPPHIRE,2026-09-30,751.27,-5.7,-0.18,Small Cap,False,False,False,False,2026-10-25,live_scrape,-0.18,1.0,-0.18,False
 SARDAEN,2010-03-31,174.02,21.44,0.63,Small Cap,False,False,False,False,2010-05-30,historical,6.3,10.0,0.63,False
 SARDAEN,2010-06-30,216.72,13.77,0.404,Small Cap,False,False,False,False,2010-08-29,historical,4.04,10.0,0.404,False
 SARDAEN,2010-09-30,200.21,17.619999999999997,0.518,Small Cap,False,False,False,False,2010-11-29,historical,5.18,10.0,0.518,False
@@ -29388,6 +29457,7 @@ SBFC,2025-09-30,410.78,109.14,0.99,Small Cap,True,True,True,True,2025-11-29,hist
 SBFC,2025-12-31,426.72,118.04,1.06,Small Cap,True,True,True,True,2026-03-01,historical,1.06,1.0,1.06,True
 SBFC,2026-03-31,454.04,122.77,1.11,Small Cap,True,True,True,True,2026-04-25,historical,1.11,1.0,1.11,True
 SBFC,2026-06-30,491.0,130.0,1.18,Small Cap,True,True,True,True,2026-07-25,live_scrape,1.18,1.0,1.18,True
+SBFC,2026-09-30,546.0,139.0,1.25,Small Cap,True,True,True,True,2026-10-25,live_scrape,1.25,1.0,1.25,True
 SBICARD,2018-06-30,1562.41,169.69,2.16,Mid Cap,False,False,False,False,2018-08-29,historical,2.16,1.0,2.16,False
 SBICARD,2018-12-31,1868.25,238.36,2.58,Mid Cap,False,False,False,False,2019-03-01,historical,2.58,1.0,2.58,False
 SBICARD,2019-03-31,1983.26,248.74,2.67,Mid Cap,False,False,False,False,2019-05-30,historical,2.67,1.0,2.67,False
@@ -29420,6 +29490,7 @@ SBICARD,2025-09-30,4960.9800000000005,444.77,4.67,Mid Cap,True,False,False,False
 SBICARD,2025-12-31,5127.26,556.64,5.85,Mid Cap,True,False,False,False,2026-03-01,historical,5.85,1.0,5.85,False
 SBICARD,2026-03-31,4934.5,609.3,6.4,Mid Cap,False,False,False,False,2026-04-27,historical,6.4,1.0,6.4,False
 SBICARD,2026-06-30,5041.0,664.0,6.98,Mid Cap,False,True,True,False,2026-07-24,live_scrape,6.98,1.0,6.98,False
+SBICARD,2026-09-30,5141.0,778.0,8.17,Mid Cap,True,True,True,True,2026-10-25,live_scrape,8.17,1.0,8.17,True
 SBILIFE,2016-09-30,4921.469999999999,410.04,2.13,Large Cap,False,False,False,False,2016-11-29,historical,2.13,1.0,2.13,False
 SBILIFE,2017-06-30,3762.58,354.95,3.13,Large Cap,False,False,False,False,2017-08-29,historical,3.13,1.0,3.13,False
 SBILIFE,2017-09-30,5384.57,380.83,2.25,Large Cap,False,False,False,False,2017-11-29,historical,2.25,1.0,2.25,False
@@ -29910,6 +29981,7 @@ SHAKTIPUMP,2025-09-30,666.35,90.71,7.34,Micro Cap,True,False,False,False,2025-11
 SHAKTIPUMP,2025-12-31,550.99,31.7,2.57,Micro Cap,False,False,False,False,2026-03-01,historical,2.57,1.0,2.57,False
 SHAKTIPUMP,2026-03-31,857.7700000000001,38.33,3.1,Micro Cap,True,False,False,False,2026-05-07,historical,3.1,1.0,3.1,False
 SHAKTIPUMP,2026-06-30,859.0,52.0,4.18,Micro Cap,True,False,False,False,2026-07-24,live_scrape,4.18,1.0,4.18,False
+SHAKTIPUMP,2026-09-30,683.0,31.0,2.51,Micro Cap,False,False,False,False,2026-10-25,live_scrape,2.51,1.0,2.51,False
 SHARDACROP,2013-09-30,186.24,20.77,2.29,Micro Cap,False,False,False,False,2013-11-29,historical,2.29,1.0,2.29,False
 SHARDACROP,2013-12-31,142.82,1.64,0.2,Micro Cap,False,False,False,False,2014-03-01,historical,0.2,1.0,0.2,False
 SHARDACROP,2014-03-31,289.66,53.42999999999999,5.92,Micro Cap,False,False,False,False,2014-05-30,historical,5.92,1.0,5.92,False
@@ -30126,6 +30198,7 @@ SHREECEM,2025-09-30,4761.07,309.82,85.5,Large Cap,False,False,False,False,2025-1
 SHREECEM,2025-12-31,4800.52,267.65,73.92,Large Cap,False,False,False,False,2026-03-01,historical,73.92,1.0,73.92,False
 SHREECEM,2026-03-31,6101.0,527.53,145.7,Large Cap,True,False,False,False,2026-05-06,historical,145.7,1.0,145.7,False
 SHREECEM,2026-06-30,6233.0,531.0,146.67,Large Cap,True,False,False,False,2026-07-31,live_scrape,146.67,1.0,146.67,False
+SHREECEM,2026-09-30,5107.0,205.0,56.91,Large Cap,False,False,False,False,2026-10-25,live_scrape,56.91,1.0,56.91,False
 SHRIPISTON,2010-03-31,198.4,18.3,4.095,Micro Cap,False,False,False,False,2010-05-30,historical,8.19,2.0,4.095,False
 SHRIPISTON,2010-06-30,203.3,19.6,4.385,Micro Cap,False,False,False,False,2010-08-29,historical,8.77,2.0,4.385,False
 SHRIPISTON,2010-09-30,194.9,14.2,3.18,Micro Cap,False,False,False,False,2010-11-29,historical,6.36,2.0,3.18,False
@@ -30258,6 +30331,7 @@ SHRIRAMFIN,2025-09-30,11912.44,2314.21,12.29,Large Cap,True,False,False,False,20
 SHRIRAMFIN,2025-12-31,12170.76,2529.68,13.44,Large Cap,True,False,False,False,2026-03-01,historical,13.44,1.0,13.44,False
 SHRIRAMFIN,2026-03-31,12513.43,3021.37,16.05,Large Cap,True,False,False,False,2026-04-24,historical,16.05,1.0,16.05,False
 SHRIRAMFIN,2026-06-30,13400.0,3453.0,14.67,Large Cap,True,True,False,False,2026-07-24,live_scrape,14.67,1.0,14.67,False
+SHRIRAMFIN,2026-09-30,13789.0,3677.0,15.63,Large Cap,True,True,False,False,2026-10-25,live_scrape,15.63,1.0,15.63,False
 SHYAMMETL,2020-03-31,1083.6799999999998,79.92999999999999,3.42,Small Cap,False,False,False,False,2020-05-30,historical,3.42,1.0,3.42,False
 SHYAMMETL,2020-06-30,911.84,80.36,3.44,Small Cap,False,False,False,False,2020-08-29,historical,3.44,1.0,3.44,False
 SHYAMMETL,2020-09-30,1335.15,159.63,6.83,Small Cap,False,False,False,False,2020-11-29,historical,6.83,1.0,6.83,False
@@ -30663,6 +30737,7 @@ SMLMAH,2025-09-30,555.11,21.05,14.55,Micro Cap,False,False,False,False,2025-11-2
 SMLMAH,2025-12-31,539.27,17.54,12.11,Micro Cap,False,False,False,False,2026-03-01,historical,12.11,1.0,12.11,False
 SMLMAH,2026-03-31,897.65,54.2,37.46,Micro Cap,True,False,False,False,2026-04-20,historical,37.46,1.0,37.46,False
 SMLMAH,2026-06-30,958.0,64.0,43.96,Micro Cap,True,True,True,True,2026-07-20,live_scrape,43.96,1.0,43.96,True
+SMLMAH,2026-09-30,670.0,12.0,8.08,Micro Cap,False,False,False,False,2026-10-25,live_scrape,8.08,1.0,8.08,False
 SOBHA,2010-03-31,394.0,55.7,,Small Cap,False,False,False,False,2010-05-30,historical,,1.0,,False
 SOBHA,2010-06-30,315.6,34.3,3.5,Small Cap,False,False,False,False,2010-08-29,historical,3.5,1.0,3.5,False
 SOBHA,2010-09-30,422.2,58.9,6.0,Small Cap,False,False,False,False,2010-11-29,historical,6.0,1.0,6.0,False
@@ -30729,6 +30804,7 @@ SOBHA,2025-09-30,1407.62,72.53,6.78,Small Cap,True,True,True,True,2025-11-29,his
 SOBHA,2025-12-31,943.11,15.43,1.44,Small Cap,False,False,False,False,2026-03-01,historical,1.44,1.0,1.44,False
 SOBHA,2026-03-31,1987.84,91.84,8.59,Small Cap,True,True,True,True,2026-05-04,historical,8.59,1.0,8.59,True
 SOBHA,2026-06-30,1278.0,51.0,4.76,Small Cap,False,False,False,False,2026-07-20,live_scrape,4.76,1.0,4.76,False
+SOBHA,2026-09-30,910.0,21.0,1.94,Small Cap,False,False,False,False,2026-10-25,live_scrape,1.94,1.0,1.94,False
 SOLARINDS,2010-03-31,156.54000000000002,14.56,8.4,Large Cap,False,False,False,False,2010-05-30,historical,8.4,1.0,8.4,False
 SOLARINDS,2010-06-30,161.07,18.06,10.43,Large Cap,False,False,False,False,2010-08-29,historical,10.43,1.0,10.43,False
 SOLARINDS,2010-09-30,150.47,18.03,9.87,Large Cap,False,False,False,False,2010-11-29,historical,9.87,1.0,9.87,False
@@ -31085,6 +31161,7 @@ SPLPETRO,2025-09-30,1117.76,48.47,2.57,Small Cap,False,False,False,False,2025-11
 SPLPETRO,2025-12-31,1280.9299999999998,30.67,1.63,Small Cap,False,False,False,False,2026-03-01,historical,1.63,1.0,1.63,False
 SPLPETRO,2026-03-31,1605.67,168.7,8.97,Small Cap,True,True,True,True,2026-04-24,historical,8.97,1.0,8.97,True
 SPLPETRO,2026-06-30,1715.0,238.0,12.62,Small Cap,True,True,True,True,2026-07-27,live_scrape,12.62,1.0,12.62,True
+SPLPETRO,2026-09-30,1957.0,95.0,5.05,Small Cap,True,False,False,False,2026-10-25,live_scrape,5.05,1.0,5.05,False
 SRF,2010-03-31,680.9100000000001,110.65,3.658,Mid Cap,False,False,False,False,2010-05-30,historical,18.29,5.0,3.658,False
 SRF,2010-06-30,618.98,54.78,1.81,Mid Cap,False,False,False,False,2010-08-29,historical,9.05,5.0,1.81,False
 SRF,2010-09-30,748.17,121.41,4.014,Mid Cap,False,False,False,False,2010-11-29,historical,20.07,5.0,4.014,False
@@ -31151,6 +31228,7 @@ SRF,2025-09-30,3640.19,388.18,13.1,Mid Cap,False,False,False,False,2025-11-29,hi
 SRF,2025-12-31,3712.53,432.66,14.6,Mid Cap,False,False,False,False,2026-03-01,historical,14.6,1.0,14.6,False
 SRF,2026-03-31,4615.17,582.02,19.63,Mid Cap,True,True,True,True,2026-05-05,historical,19.63,1.0,19.63,True
 SRF,2026-06-30,5033.0,759.0,25.6,Mid Cap,True,True,True,True,2026-07-22,live_scrape,25.6,1.0,25.6,True
+SRF,2026-09-30,3809.0,438.0,14.79,Mid Cap,False,False,False,False,2026-10-25,live_scrape,14.79,1.0,14.79,False
 STAR,2010-03-31,381.52,43.13,8.45,Micro Cap,False,False,False,False,2010-05-30,historical,8.45,1.0,8.45,False
 STAR,2010-06-30,483.73,49.89,9.12,Micro Cap,False,False,False,False,2010-08-29,historical,9.12,1.0,9.12,False
 STAR,2010-09-30,430.41,40.75,5.52,Micro Cap,False,False,False,False,2010-11-29,historical,5.52,1.0,5.52,False
@@ -31347,6 +31425,7 @@ STLTECH,2025-09-30,1034.0,4.0,0.08,Micro Cap,False,False,False,False,2025-11-29,
 STLTECH,2025-12-31,1257.0,-17.0,-0.35,Micro Cap,True,False,False,False,2026-03-01,historical,-0.35,1.0,-0.35,False
 STLTECH,2026-03-31,1441.0,59.0,1.17,Micro Cap,True,True,True,True,2026-04-29,historical,1.17,1.0,1.17,True
 STLTECH,2026-06-30,1910.0,197.0,4.04,Micro Cap,True,True,True,True,2026-07-24,live_scrape,4.04,1.0,4.04,True
+STLTECH,2026-09-30,1399.0,319.0,6.21,Micro Cap,False,True,True,False,2026-10-25,live_scrape,6.21,1.0,6.21,False
 STYL,2024-06-30,360.5,40.49,2.74,Micro Cap,False,False,False,False,2024-08-29,historical,2.74,1.0,2.74,False
 STYL,2024-09-30,395.15,65.16,4.41,Micro Cap,False,False,False,False,2024-11-29,historical,4.41,1.0,4.41,False
 STYL,2024-12-31,339.42,53.7,3.64,Micro Cap,False,False,False,False,2025-03-01,historical,3.64,1.0,3.64,False
@@ -32158,6 +32237,7 @@ SWIGGY,2025-09-30,5561.0,-1092.0,-4.59,Mid Cap,True,False,False,False,2025-11-29
 SWIGGY,2025-12-31,6148.0,-1065.0,-4.36,Mid Cap,True,False,False,False,2026-03-01,historical,-4.36,1.0,-4.36,False
 SWIGGY,2026-03-31,6383.0,-800.0,-3.34,Mid Cap,True,False,False,False,2026-05-08,historical,-3.34,1.0,-3.34,False
 SWIGGY,2026-06-30,6812.0,-791.0,-2.87,Mid Cap,True,False,False,False,2026-07-30,live_scrape,-2.87,1.0,-2.87,False
+SWIGGY,2026-09-30,2646.0,287.0,1.04,Mid Cap,False,True,True,False,2026-10-25,live_scrape,1.04,1.0,1.04,False
 SWSOLAR,2018-06-30,1749.7099999999998,14.7,,Micro Cap,False,False,False,False,2018-08-29,historical,,1.0,,False
 SWSOLAR,2018-09-30,247.25,5.84,3.62,Micro Cap,False,False,False,False,2018-11-29,historical,3.62,1.0,3.62,False
 SWSOLAR,2018-12-31,1644.0099999999998,188.5,11.84,Micro Cap,False,False,False,False,2019-03-01,historical,11.84,1.0,11.84,False
@@ -34040,6 +34120,7 @@ TMCV,2025-09-30,18585.0,-867.0,-2.35,Large Cap,False,False,False,False,2025-11-2
 TMCV,2025-12-31,21847.0,705.0,1.91,Large Cap,False,False,False,False,2026-03-01,historical,1.91,1.0,1.91,False
 TMCV,2026-03-31,26098.0,1793.0,4.87,Large Cap,False,False,False,False,2026-05-13,historical,4.87,1.0,4.87,False
 TMCV,2026-06-30,19329.0,1528.0,4.15,Large Cap,False,False,False,False,2026-08-12,live_scrape,4.15,1.0,4.15,False
+TMCV,2026-09-30,23930.0,2138.0,5.81,Large Cap,False,True,True,False,2026-10-25,live_scrape,5.81,1.0,5.81,False
 TMPV,2010-03-31,28983.640000000003,2242.6,,Large Cap,False,False,False,False,2010-05-30,historical,,5.0,,False
 TMPV,2010-06-30,27055.57,1995.0,6.42,Large Cap,False,False,False,False,2010-08-29,historical,32.1,5.0,6.42,False
 TMPV,2010-09-30,28519.22,2234.27,1.432,Large Cap,False,False,False,False,2010-11-29,historical,7.16,5.0,1.432,False
@@ -34172,6 +34253,7 @@ TORNTPHARM,2025-09-30,3302.0,591.0,17.45,Large Cap,True,True,True,True,2025-11-2
 TORNTPHARM,2025-12-31,3303.0,635.0,18.77,Large Cap,True,True,True,True,2026-03-01,historical,18.77,1.0,18.77,True
 TORNTPHARM,2026-03-31,4197.0,364.0,11.51,Large Cap,True,False,False,False,2026-05-22,historical,11.51,1.0,11.51,False
 TORNTPHARM,2026-06-30,4921.0,566.0,16.72,Large Cap,True,False,False,False,2026-07-30,live_scrape,16.72,1.0,16.72,False
+TORNTPHARM,2026-09-30,4145.0,498.0,13.09,Large Cap,False,False,False,False,2026-10-25,live_scrape,13.09,1.0,13.09,False
 TORNTPOWER,2010-03-31,1717.45,287.55,6.09,Mid Cap,False,False,False,False,2010-05-30,historical,6.09,1.0,6.09,False
 TORNTPOWER,2010-06-30,1820.35,299.46,6.33,Mid Cap,False,False,False,False,2010-08-29,historical,6.33,1.0,6.33,False
 TORNTPOWER,2010-09-30,1724.0099999999998,218.98,4.63,Mid Cap,False,False,False,False,2010-11-29,historical,4.63,1.0,4.63,False
@@ -34623,6 +34705,7 @@ TTML,2025-09-30,286.13,-320.82,-1.64,Small Cap,False,False,False,False,2025-11-2
 TTML,2025-12-31,294.31,-150.43,-0.77,Small Cap,False,True,True,False,2026-03-01,historical,-0.77,1.0,-0.77,False
 TTML,2026-03-31,295.54,580.9300000000001,2.97,Small Cap,False,True,True,False,2026-04-23,historical,2.97,1.0,2.97,False
 TTML,2026-06-30,302.0,-72.0,-0.37,Small Cap,False,False,False,False,2026-07-22,live_scrape,-0.37,1.0,-0.37,False
+TTML,2026-09-30,310.0,-59.0,-0.3,Small Cap,False,False,False,False,2026-10-25,live_scrape,-0.3,1.0,-0.3,False
 TVSMOTOR,2010-03-31,1216.84,20.29,0.086,Large Cap,False,False,False,False,2010-05-30,historical,0.43,5.0,0.086,False
 TVSMOTOR,2010-06-30,1392.96,40.37,0.16999999999999998,Large Cap,False,False,False,False,2010-08-29,historical,0.85,5.0,0.16999999999999998,False
 TVSMOTOR,2010-09-30,1616.24,54.78,0.22999999999999998,Large Cap,False,False,False,False,2010-11-29,historical,1.15,5.0,0.22999999999999998,False
@@ -34937,6 +35020,7 @@ ULTRACEMCO,2025-09-30,19606.93,1237.98,41.84,Large Cap,False,False,False,False,2
 ULTRACEMCO,2025-12-31,21829.68,1729.44,58.62,Large Cap,False,False,False,False,2026-03-01,historical,58.62,1.0,58.62,False
 ULTRACEMCO,2026-03-31,25799.47,3000.02,101.35,Large Cap,True,True,True,True,2026-04-27,historical,101.35,1.0,101.35,True
 ULTRACEMCO,2026-06-30,24648.0,2604.0,88.21,Large Cap,False,False,False,False,2026-07-20,live_scrape,88.21,1.0,88.21,False
+ULTRACEMCO,2026-09-30,22108.0,1332.0,45.19,Large Cap,False,False,False,False,2026-10-25,live_scrape,45.19,1.0,45.19,False
 UNIONBANK,2010-03-31,3561.67,593.5,11.75,Large Cap,False,False,False,False,2010-05-30,historical,11.75,1.0,11.75,False
 UNIONBANK,2010-06-30,3685.67,601.42,11.91,Large Cap,False,False,False,False,2010-08-29,historical,11.91,1.0,11.91,False
 UNIONBANK,2010-09-30,3952.24,303.39,6.01,Large Cap,False,False,False,False,2010-11-29,historical,6.01,1.0,6.01,False
@@ -35003,6 +35087,7 @@ UNIONBANK,2025-09-30,26205.13,4425.95,5.8,Large Cap,False,False,False,False,2025
 UNIONBANK,2025-12-31,26819.18,5072.6900000000005,6.65,Large Cap,False,True,True,False,2026-03-01,historical,6.65,1.0,6.65,False
 UNIONBANK,2026-03-31,26675.95,5503.61,7.21,Large Cap,False,True,True,False,2026-04-23,historical,7.21,1.0,7.21,False
 UNIONBANK,2026-06-30,27427.0,5642.0,7.39,Large Cap,False,True,True,False,2026-07-15,live_scrape,7.39,1.0,7.39,False
+UNIONBANK,2026-09-30,28158.0,5537.0,7.25,Large Cap,True,False,False,False,2026-10-25,live_scrape,7.25,1.0,7.25,False
 UNITDSPR,2010-03-31,1266.3200000000002,56.85,0.906,Large Cap,False,False,False,False,2010-05-30,historical,4.53,5.0,0.906,False
 UNITDSPR,2010-06-30,1470.61,121.05,1.9280000000000002,Large Cap,False,False,False,False,2010-08-29,historical,9.64,5.0,1.9280000000000002,False
 UNITDSPR,2010-09-30,1365.53,74.6,1.1880000000000002,Large Cap,False,False,False,False,2010-11-29,historical,5.94,5.0,1.1880000000000002,False
@@ -35305,6 +35390,7 @@ UTIAMC,2025-09-30,418.55,132.2,8.77,Small Cap,False,False,False,False,2025-11-29
 UTIAMC,2025-12-31,517.13,137.81,9.39,Small Cap,False,False,False,False,2026-03-01,historical,9.39,1.0,9.39,False
 UTIAMC,2026-03-31,390.28,-51.44,-5.19,Small Cap,False,False,False,False,2026-04-23,historical,-5.19,1.0,-5.19,False
 UTIAMC,2026-06-30,584.0,294.0,22.86,Small Cap,True,True,True,True,2026-07-22,live_scrape,22.86,1.0,22.86,True
+UTIAMC,2026-09-30,337.0,143.0,11.13,Small Cap,False,False,False,False,2026-10-25,live_scrape,11.13,1.0,11.13,False
 UTLSOLAR,2024-06-30,731.28,73.22999999999999,,Micro Cap,False,False,False,False,2024-08-29,historical,,1.0,,False
 UTLSOLAR,2024-09-30,329.05,31.87,1.13,Micro Cap,False,False,False,False,2024-11-29,historical,1.13,1.0,1.13,False
 UTLSOLAR,2024-12-31,,,,Micro Cap,False,False,False,False,2025-03-01,historical,,1.0,,False
@@ -35893,6 +35979,7 @@ VMM,2025-09-30,2981.49,152.31,0.32,Mid Cap,False,False,False,False,2025-11-29,hi
 VMM,2025-12-31,3670.41,312.92,0.66,Mid Cap,True,True,True,True,2026-03-01,historical,0.66,1.0,0.66,True
 VMM,2026-03-31,3114.1,167.92000000000002,0.36,Mid Cap,False,False,False,False,2026-05-14,historical,0.36,1.0,0.36,False
 VMM,2026-06-30,3727.0,259.0,0.55,Mid Cap,True,False,False,False,2026-07-23,live_scrape,0.55,1.0,0.55,False
+VMM,2026-09-30,1990.0,165.0,0.35,Mid Cap,False,False,False,False,2026-10-25,live_scrape,0.35,1.0,0.35,False
 VOLTAMP,2010-03-31,182.13,26.45,26.15,Micro Cap,False,False,False,False,2010-05-30,historical,26.15,1.0,26.15,False
 VOLTAMP,2010-06-30,119.33,10.71,10.58,Micro Cap,False,False,False,False,2010-08-29,historical,10.58,1.0,10.58,False
 VOLTAMP,2010-09-30,124.34,9.32,9.21,Micro Cap,False,False,False,False,2010-11-29,historical,9.21,1.0,9.21,False
@@ -36154,6 +36241,7 @@ WAAREERTL,2025-09-30,774.78,116.35,11.13,Micro Cap,True,True,True,True,2025-11-2
 WAAREERTL,2025-12-31,851.0600000000001,120.2,11.5,Micro Cap,True,True,True,True,2026-03-01,historical,11.5,1.0,11.5,True
 WAAREERTL,2026-03-31,1102.4,155.70999999999998,14.94,Micro Cap,True,True,True,True,2026-04-16,historical,14.94,1.0,14.94,True
 WAAREERTL,2026-06-30,924.0,119.0,11.11,Micro Cap,False,False,False,False,2026-07-22,live_scrape,11.11,1.0,11.11,False
+WAAREERTL,2026-09-30,452.0,68.0,6.53,Micro Cap,False,False,False,False,2026-10-25,live_scrape,6.53,1.0,6.53,False
 WABAG,2010-03-31,481.87,55.89,11.748000000000001,Micro Cap,False,False,False,False,2010-05-30,historical,58.74,5.0,11.748000000000001,False
 WABAG,2010-06-30,176.2,-5.41,-1.1380000000000001,Micro Cap,False,False,False,False,2010-08-29,historical,-5.69,5.0,-1.1380000000000001,False
 WABAG,2010-09-30,238.79,-1.9,-0.16,Micro Cap,False,False,False,False,2010-11-29,historical,-0.8,5.0,-0.16,False
@@ -36556,6 +36644,7 @@ WESTLIFE,2025-09-30,641.85,27.71,1.78,Micro Cap,False,True,True,False,2025-11-29
 WESTLIFE,2025-12-31,670.72,1.02,0.07,Micro Cap,True,False,False,False,2026-03-01,historical,0.07,1.0,0.07,False
 WESTLIFE,2026-03-31,655.36,2.38,0.15,Micro Cap,False,False,False,False,2026-05-07,historical,0.15,1.0,0.15,False
 WESTLIFE,2026-06-30,735.64,0.59,0.04,Micro Cap,True,False,False,False,2026-07-30,live_scrape,0.04,1.0,0.04,False
+WESTLIFE,2026-09-30,0.29,0.01,0.0,Micro Cap,False,False,False,False,2026-10-25,live_scrape,0.0,1.0,0.0,False
 WEWORK,2024-09-30,469.54,203.74,16.04,Micro Cap,False,False,False,False,2024-11-29,historical,16.04,1.0,16.04,False
 WEWORK,2024-12-31,491.66,-83.12,-6.58,Micro Cap,False,False,False,False,2025-03-01,historical,-6.58,1.0,-6.58,False
 WEWORK,2025-03-31,539.37,36.73,2.74,Micro Cap,False,False,False,False,2025-05-30,historical,2.74,1.0,2.74,False
